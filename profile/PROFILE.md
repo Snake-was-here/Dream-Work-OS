@@ -16,6 +16,7 @@ His background also includes 100+ self-produced edited/uploaded videos, DoneList
 |---|---|---|
 | AI-directed product delivery from idea to working system | P001–P005, P009–P011, P017; E002/E009 | Defines outcomes, chooses direction with AI, steers agents, connects services, tests and iterates; no manual coding claim |
 | Workflow automation and tool integration | P003–P005, P011–P012, P017 | Agent-run local workflows, n8n, Buffer, Google Sheets, APIs/CLIs, SaaS integrations and operational handoffs |
+| Agent infrastructure / multi-agent operations | P002, P004; S001, S018, S022 | Configures specialist-agent teams, supporting integrations, model/tool access and practical messaging interfaces |
 | Product/UX and visual judgment | P001, P003, P006–P008, P013, P017 | Human review of colours/layout/flow, reference-based correction, hands-on Canva design and practical MVP decisions |
 | Hands-on content production | P008, P014, P017 | 100+ personally edited/uploaded short- and long-form videos, 10–15 DoneListing marketing videos, plus AI-assisted content-pipeline experiments |
 | Multi-model AI workflow direction | P003, P014, P017; S001, S004, S020 | Chooses agents/models by task/cost, combines local/cloud models, supplies context/references and iterates through agent + human QA loops |
@@ -31,6 +32,7 @@ His background also includes 100+ self-produced edited/uploaded videos, DoneList
 - Research automation that must preserve provenance and handle missing data: P009; S002, S004, S010, S012.
 - Adapting an existing browser tool for voice interaction: P010; S001–S003, S011.
 - A lightweight operational tracker with review gates and handoffs: P011; S002, S003, S004.
+- Multi-agent/team setup with specialized roles and external interfaces: P002, P004; S001, S003, S018, S022.
 - Customer-facing or practical technical operations: CV C001–C004; S013, S014.
 
 ## Facts and constraints
