@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-01 — Agent-system and multi-agent depth
+- Added owner-confirmed supporting-service setup around GitHub, Vercel, Stripe, Clerk and model-routing services.
+- Added MCP-style tool integrations and Telegram/Discord interfaces used to operate agent systems outside the terminal.
+- Expanded Hermes evidence from one reviewed architecture to multiple owner-confirmed multi-agent setups, including a roughly ten-agent specialized team.
+- Added S022 for multi-agent team / agent-interface setup and strengthened the profile, CV, S001/S018 and P002 accordingly.
+- Kept boundaries explicit: this is agent orchestration/integration experience, not manual coding, formal DevOps/security engineering or human people-management.
+
 ## 2026-10-01 — AI-search gap reprioritization
 - Reframed remaining profile gaps around the actual target: AI/product/automation/content roles, rather than low-priority physical-job credential details.
 - Cleaned stale portfolio wording that still implied unknown manual coding or an active scheduler.
