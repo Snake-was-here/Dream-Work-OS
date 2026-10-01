@@ -16,4 +16,5 @@ Avoid “I hope this message finds you well”, generic compliments, inflated en
 
 YES approves drafting. Sending requires explicit authorization identifying the message, recipient and channel (or a clearly scoped approved batch). If the draft changes materially after approval, obtain renewed authorization. Obey the poster's requested route and platform/community rules. If authorization or required identity/credentials is missing, preserve the finished draft and state exactly what is needed.
 
-After confirmed send, update the message status/time and opportunity first-send timestamp, channel and next action. A failed attempt stays FAILED or DRAFT; do not set SENT without evidence. Never embed an auto-send action in a spreadsheet trigger.
+After confirmed send, update the message status/time and opportunity first-send timestamp, channel and next action. A failed attempt stays FAILED or DRAFT; do not set SENT without evidence. Spreadsheet formulas record event dates; they never authorize or perform sending. Preserve retained timestamp formulas or supply actual historical numeric date values as documented in the integration guide.
+

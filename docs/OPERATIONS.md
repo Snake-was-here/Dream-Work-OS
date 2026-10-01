@@ -6,7 +6,7 @@ An optional Codex daily runner is configured for 10:00 Europe/Vilnius (automatio
 
 Agent launch prompt: “Read AGENTS.md in Snake-was-here/Dream-Work-OS. Run discovery, verification, matching and sheet updates. Then draft for YES rows and respond to linked inbound messages. Do not send anything. Report worthwhile changes and blockers.”
 
-Manual SENT timestamps use the optional Google sheet event helper whose source is `integrations/google-sheets/Code.gs`. Search/drafting code never runs inside Apps Script. Connector/API agents must supply static dates explicitly because API writes do not fire edit triggers.
+Manual SENT timestamps use retained self-referencing sheet formulas with iterative calculation enabled. Formula definitions are in `integrations/google-sheets/formulas.json`. There is no Apps Script requirement. Agents supply stable IDs, preserve formula results and enter actual known numeric dates for historical imports. The daily adapter must read the latest repository instructions on each run.
 
 Original Sheet1 and its existing cell were preserved. Details/milestone columns are hidden in OPPORTUNITIES; unhide to inspect evidence and dates. All filters, validations and dashboard formulas currently cover rows 2–1000; expand before exceeding that capacity.
 

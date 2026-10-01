@@ -12,7 +12,7 @@ The repository holds the operating rules and verified profile. The [Google Sheet
 2. Review **OPPORTUNITIES**. Set **My Decision** to YES, MAYBE, or NO. The agent can explain uncertainties before you choose.
 3. Ask: “Draft messages for my YES opportunities using verified profile facts and relevant proof. Save each draft in MESSAGES.”
 4. Review the drafts. Explicitly authorize a particular message and recipient if you want an agent to send it, or send it yourself. A YES decision approves drafting only.
-5. After an actual send, mark the message SENT and the opportunity SENT. A manual change to SENT records a static first-send timestamp through the sheet automation. Paste replies as separate INBOUND rows in MESSAGES.
+5. After an actual send, mark the message SENT and the opportunity SENT. Self-referencing IF/NOW formulas are designed to retain the first event time with iterative calculation enabled (maximum iterations 1). Agents create UUID IDs and validate message links; see the integration guide for historical dates and formula limits. Paste replies as separate INBOUND rows in MESSAGES.
 6. Ask: “Review conversations and follow-ups, draft needed responses, and update next actions. Do not send.”
 
 **DASHBOARD** shows progress and conversions. **CONFIG** documents settings and automation state. A scheduled discovery run is optional; its prompt and limits are in [SEARCH.md](system/SEARCH.md). A scheduler must be enabled before searches recur.
@@ -29,3 +29,6 @@ The initial profile contains the owner's self-reported skills, not verified empl
 - [Sheet integration and setup](integrations/google-sheets/README.md), [changelog](docs/CHANGELOG.md)
 
 Keep the repository private unless the owner explicitly approves publication. Keep professional contact data and conversation contents in the operational sheet, not in commits. Neither drafts nor spreadsheet state changes send messages by themselves.
+
+The repository is the primary agent entry point. There is no Apps Script component.
+

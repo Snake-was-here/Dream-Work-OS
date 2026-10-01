@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0",
+  "spreadsheetId": "1J_UqraPqJTLDcC0UDRz9Jb2F71aQ_DRo_m_JWA417CQ",
+  "timezone": "Europe/Vilnius",
+  "iterativeCalculationSettings": {
+    "maxIterations": 1,
+    "convergenceThreshold": 0.001
+  },
+  "preparedRows": {
+    "first": 2,
+    "last": 1000
+  },
+  "opportunityHeaders": [
+    "Opportunity ID",
+    "Company / Person",
+    "Title / Problem",
+    "Opportunity Type",
+    "Match Score",
+    "Why I Match",
+    "Potential Gaps",
+    "My Decision",
+    "Status",
+    "Next Action",
+    "Next Follow-up At",
+    "Source URL",
+    "Date Found",
+    "Date Posted",
+    "Last Verified",
+    "Source",
+    "Short Description",
+    "Location",
+    "Remote?",
+    "Compensation",
+    "Compensation Type",
+    "Ongoing?",
+    "Contact Method",
+    "Contact",
+    "Application URL",
+    "Relevant Portfolio Work",
+    "Sent At",
+    "Last Reply At",
+    "Notes",
+    "Canonical URL",
+    "Dedupe Key",
+    "Evidence",
+    "Activity",
+    "Positive Reply At",
+    "Call At",
+    "Paid Trial At",
+    "Accepted At",
+    "Integrity"
+  ],
+  "messageHeaders": [
+    "Message ID",
+    "Opportunity ID",
+    "Timestamp",
+    "Direction",
+    "Message Type",
+    "Channel",
+    "From",
+    "To",
+    "Subject",
+    "Message",
+    "Status",
+    "Notes",
+    "Reply Outcome",
+    "Integrity"
+  ],
+  "formulas": [
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 26,
+      "formula": "=IF($A2=\"\",\"\",IF($I2=\"SENT\",IF(OR(AA2=\"\",AA2=0),NOW(),AA2),IF(OR(AA2=\"\",AA2=0),\"\",AA2)))"
+    },
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 34,
+      "formula": "=IF($A2=\"\",\"\",IF($I2=\"INTERVIEW / CALL\",IF(OR(AI2=\"\",AI2=0),NOW(),AI2),IF(OR(AI2=\"\",AI2=0),\"\",AI2)))"
+    },
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 35,
+      "formula": "=IF($A2=\"\",\"\",IF($I2=\"PAID TRIAL\",IF(OR(AJ2=\"\",AJ2=0),NOW(),AJ2),IF(OR(AJ2=\"\",AJ2=0),\"\",AJ2)))"
+    },
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 36,
+      "formula": "=IF($A2=\"\",\"\",IF($I2=\"ACCEPTED\",IF(OR(AK2=\"\",AK2=0),NOW(),AK2),IF(OR(AK2=\"\",AK2=0),\"\",AK2)))"
+    },
+    {
+      "sheet": "MESSAGES",
+      "columnIndex": 2,
+      "formula": "=IF($A2=\"\",\"\",IF(OR(AND($D2=\"OUTBOUND\",$K2=\"SENT\"),AND($D2=\"INBOUND\",$K2=\"RECEIVED\")),IF(OR(C2=\"\",C2=0),NOW(),C2),IF(OR(C2=\"\",C2=0),\"\",C2)))"
+    },
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 27,
+      "formula": "=IF($A2=\"\",\"\",LET(t,MAXIFS(MESSAGES!$C$2:$C$1000,MESSAGES!$B$2:$B$1000,$A2,MESSAGES!$D$2:$D$1000,\"INBOUND\",MESSAGES!$K$2:$K$1000,\"RECEIVED\",MESSAGES!$N$2:$N$1000,\"\"),IF(t=0,\"\",t)))"
+    },
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 33,
+      "formula": "=IF($A2=\"\",\"\",LET(t,MINIFS(MESSAGES!$C$2:$C$1000,MESSAGES!$B$2:$B$1000,$A2,MESSAGES!$D$2:$D$1000,\"INBOUND\",MESSAGES!$K$2:$K$1000,\"RECEIVED\",MESSAGES!$M$2:$M$1000,\"POSITIVE\",MESSAGES!$N$2:$N$1000,\"\",MESSAGES!$C$2:$C$1000,\">0\"),IF(t=0,\"\",t)))"
+    },
+    {
+      "sheet": "OPPORTUNITIES",
+      "columnIndex": 37,
+      "formula": "=IF($B2=\"\",\"\",IF($A2=\"\",\"NEEDS OPPORTUNITY ID\",IF(COUNTIF($A$2:$A$1000,$A2)>1,\"DUPLICATE OPPORTUNITY ID\",IF(OR(AND($AD2<>\"\",COUNTIF($AD$2:$AD$1000,$AD2)>1),COUNTIFS($B$2:$B$1000,$B2,$C$2:$C$1000,$C2)>1),\"POSSIBLE DUPLICATE\",\"\"))))"
+    },
+    {
+      "sheet": "MESSAGES",
+      "columnIndex": 13,
+      "formula": "=IF($J2=\"\",\"\",IF($A2=\"\",\"NEEDS MESSAGE ID\",IF(COUNTIF($A$2:$A$1000,$A2)>1,\"DUPLICATE MESSAGE ID\",IF(OR($B2=\"\",COUNTIF(OPPORTUNITIES!$A$2:$A$1000,$B2)<>1),\"UNLINKED OPPORTUNITY\",IF(OR(AND($K2=\"SENT\",$D2<>\"OUTBOUND\"),AND($K2=\"RECEIVED\",$D2<>\"INBOUND\")),\"DIRECTION / STATUS MISMATCH\",\"\")))))"
+    }
+  ],
+  "warning": "Only insert formulas into empty new event cells; never reapply over retained timestamps. Google Sheets performs live calculation; this manifest does not execute or send anything."
+}

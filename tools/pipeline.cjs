@@ -1,20 +1,34 @@
 // Model-neutral, dependency-free planning. Does not write to Google or send anything.
 const fs = require('node:fs');
-const vm = require('node:vm');
-const path = require('node:path');
 const {randomUUID} = require('node:crypto');
-const source = fs.readFileSync(path.join(__dirname,'../integrations/google-sheets/Code.gs'),'utf8');
-const context = vm.createContext({});
-vm.runInContext(source, context);
-const canonicalURL = value => context.canonicalUrl_(value);
-const normalize = value => context.normalize_(value);
+function normalize_(value) {
+  return String(value || '').toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu, ' ').trim().replace(/\s+/g, ' ');
+}
+
+function canonicalUrl_(value) {
+  // Deterministic, conservative URL identity; no network requests.
+  const match = String(value || '').trim().match(/^(https?):\/\/([^/?#]+)([^?#]*)(?:\?([^#]*))?(?:#.*)?$/i);
+  if (!match) return '';
+  const protocol = match[1].toLowerCase();
+  const host = match[2].toLowerCase().replace(protocol === 'https' ? /:443$/ : /:80$/, '');
+  const path = (match[3] || '').replace(/\/+$/, '') || '';
+  const query = (match[4] || '').split('&').filter(Boolean).filter(function (pair) {
+    const key = pair.split('=')[0].toLowerCase();
+    return !/^utm_/.test(key) && !['fbclid', 'gclid'].includes(key);
+  }).sort().join('&');
+  return protocol + '://' + host + path + (query ? '?' + query : '');
+}
+
+
+const canonicalURL = canonicalUrl_;
+const normalize = normalize_;
 const identity = row => normalize(row['Company / Person']) && normalize(row['Title / Problem']) ? normalize(row['Company / Person'])+'|'+normalize(row['Title / Problem']) : '';
 function matches(a,b) {
   const url = canonicalURL(a['Source URL']);
   if(url && url===canonicalURL(b['Source URL'])) return true;
   if(identity(a) && identity(a)===identity(b)) return true;
   const desc=normalize(a['Short Description']);
-  return desc.length>=40 && desc===normalize(b['Short Description']) && normalize(a.Source) && normalize(a.Source)===normalize(b.Source);
+  return desc.length>=40 && desc===normalize(b['Short Description']) && normalize(a['Company / Person']) && normalize(a['Company / Person'])===normalize(b['Company / Person']) && normalize(a.Source)===normalize(b.Source);
 }
 function plan(existing,candidates) {
   const working=existing.map(x=>({...x})), inserts=[], updates=[], review=[];
@@ -23,6 +37,9 @@ function plan(existing,candidates) {
     const hits=working.filter(row=>matches(row,candidate));
     if(hits.length>1) {review.push({candidate,reason:'Ambiguous duplicate; resolve before write',ids:hits.map(x=>x['Opportunity ID'])});continue;}
     if(hits.length===1) {
+      const sameURL=canonicalURL(candidate['Source URL'])===canonicalURL(hits[0]['Source URL']);
+      const sameBrief=normalize(candidate['Short Description']).length>=40 && normalize(candidate['Short Description'])===normalize(hits[0]['Short Description']);
+      if(!sameURL&&!sameBrief){review.push({candidate,reason:'Possible cross-post or distinct role; compare original sources before merging',ids:[hits[0]['Opportunity ID']]});continue;}
       // Discovery refreshes verification only. Never overwrite human workflow/history.
       updates.push({'Opportunity ID':hits[0]['Opportunity ID'],'Last Verified':candidate['Last Verified'],Evidence:candidate.Evidence,Activity:candidate.Activity});
       continue;

@@ -25,4 +25,12 @@ test('orphan and reused message IDs fail validation',()=>{
  const opp=plan([], [candidate]).inserts; const id=opp[0]['Opportunity ID'];
  assert.deepEqual(validateLinks(opp,[{'Message ID':'MSG-a','Opportunity ID':id,Status:'DRAFT',Direction:'OUTBOUND'}]),[]);
  assert.equal(validateLinks(opp,[{'Message ID':'MSG-a','Opportunity ID':'OP-missing'}]).length,1);
+ assert.equal(validateLinks(opp,[{'Message ID':'MSG-a','Opportunity ID':id},{'Message ID':'MSG-a','Opportunity ID':id}]).length,1);
+});
+test('same-title distinct listings need review; generic briefs across employers stay distinct',()=>{
+ const existing=plan([], [candidate]).inserts;
+ const changed={...candidate,'Source URL':'https://example.com/jobs?id=100','Short Description':'A different role with the same company and title'};
+ assert.equal(plan(existing,[changed]).review.length,1);
+ const other={...candidate,'Source URL':'https://example.com/jobs?id=101','Company / Person':'Different employer','Title / Problem':'Another title'};
+ assert.equal(plan(existing,[other]).inserts.length,1);
 });
