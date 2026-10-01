@@ -62,12 +62,12 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 ## S006 — Creative direction / visual acceptance judgment
 
 - **SKILL:** Creative direction / visual acceptance judgment.
-- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, moderate for explicit direction; broader design authorship pending.
-- **WHAT I CAN DO:** Specify desired colour/skin/black detail, use references, request geometry/audio checks and direct iterative refinement.
-- **EVIDENCE:** E004 contains specific creative constraints and revision criteria; public portfolio has visual/product artifacts.
-- **PROJECTS USING IT:** P003, P006–P008.
-- **TOOLS/TECHNOLOGIES:** Reference video; preview/final exports; visual layouts; actual hands-on design tools pending confirmation.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Taste direction is not a colourist qualification. No claim of expert grading, independent professional audio mixing or client brand strategy.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN personal direction and hands-on design, OWNER-CONFIRMED; external/client validation limited.
+- **WHAT I CAN DO:** Judge and refine colour, layout, hierarchy and overall visual feel; use references; personally create practical Canva assets; manually review interfaces and direct specific visual corrections to agents.
+- **EVIDENCE:** E004 contains specific video look constraints and revision criteria; E010 confirms roughly 400 Canva designs spanning logos, graphs, thumbnails, ads, profile pictures, banners and social branding; public portfolio contains matching visual/product artifacts.
+- **PROJECTS USING IT:** P001, P003, P006–P008, P013, P017.
+- **TOOLS/TECHNOLOGIES:** Canva, visual references, manual browser/product review, AI image tools including Midjourney.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** A self-imposed high visual bar/taste is subjective, not evidence of professional art direction or client brand strategy. No claim of expert colour grading, Figma/Adobe mastery, hand illustration or professional audio mixing.
 
 ## S007 — Manual video editing / filming / thumbnails
 
@@ -76,28 +76,28 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **WHAT I CAN DO:** Personally film, manually edit, caption and upload short- and long-form video. Owner confirms 100+ self-produced edited/uploaded videos, mostly talking-head/personal content, plus approximately 10–15 DoneListing marketing videos that he personally filmed, edited, manually captioned and uploaded.
 - **EVIDENCE:** E009 owner confirmation; E008 CV reports 50+ creation/editing; public historical content artifacts support the broader activity.
 - **PROJECTS USING IT:** P008, P017; P003 is the automation counterpart.
-- **TOOLS/TECHNOLOGIES:** Exact manual editor/camera stack still needs confirmation.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No paid client video work yet; representative original examples, exact tools and dates should be linked when useful. Do not present the 100+ count as externally audited.
+- **TOOLS/TECHNOLOGIES:** Mainly CapCut (free) for manual editing, with some Canva video editing; exact camera hardware remains UNKNOWN.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Manual editing depth is practical/basic: cuts, silence removal, captions, fades, basic colour correction and basic audio/limiter work. No paid client video work yet; representative original examples and dates should be linked when useful. Do not present the 100+ count as externally audited.
 
 ## S008 — Graphic layout / digital product presentation
 
 - **SKILL:** Graphic layout / digital product presentation.
-- **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE, moderate artifact support; authorship detail pending.
-- **WHAT I CAN DO:** Produce or direct product layouts, mockup presentation, template previews and consistent visual packaging.
-- **EVIDENCE:** Visible mug/poster compositions, shipping/size panels, CV templates and YouTube banners on public portfolio.
-- **PROJECTS USING IT:** P006–P008.
-- **TOOLS/TECHNOLOGIES:** E008 reports personal Canva use for logos/thumbnails and Midjourney image generation; inspected artwork/template artifacts. Exact per-piece workflow pending.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No independently established professional client-design history, hand illustration, Figma/Adobe proficiency or complete brand identity work.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN personal use, moderate artifact support; no paid client-design history.
+- **WHAT I CAN DO:** Personally design logos, graphs, YouTube thumbnails, ad creatives, profile pictures, banners, social-media branding, product layouts and template/mockup presentation.
+- **EVIDENCE:** E010 owner confirmation of roughly 400 Canva designs across personal/business use; visible mug/poster compositions, size/shipping panels, CV templates, banners and other public portfolio artifacts.
+- **PROJECTS USING IT:** P001, P006–P008, P013.
+- **TOOLS/TECHNOLOGIES:** Canva; Midjourney/AI imagery as source material where relevant.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No independently established paid client-design history, Figma/Adobe proficiency, hand illustration or full professional brand-identity engagement. Quality/taste remains primarily self-evaluated.
 
 ## S009 — E-commerce / digital product packaging
 
 - **SKILL:** E-commerce / digital product packaging.
 - **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE, moderate historical artifact support.
-- **WHAT I CAN DO:** Package artwork and digital templates as storefront products with titles, visual explanation and delivery formats.
-- **EVIDENCE:** Etsy and Gumroad listing screenshots, Notion Student OS product preview and cold-email template product.
+- **WHAT I CAN DO:** Turn artwork/digital assets into storefront products, create presentation/mockups, publish listings and connect print-on-demand style offers to marketplaces.
+- **EVIDENCE:** Etsy/Gumroad listing screenshots and product artifacts; E010 confirms extensive Midjourney use and applying generated art to print-on-demand items such as T-shirts, mugs and phone cases for Etsy.
 - **PROJECTS USING IT:** P006–P008.
-- **TOOLS/TECHNOLOGIES:** Etsy, Gumroad, Notion, Canva-related artifacts; E008 reports Shopify/Etsy/Gumroad administration and website builders. Specific Shopify example pending.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Current shop activity, sales ownership, profit, fulfillment quality and conversion performance need evidence. Screenshot numbers remain historical.
+- **TOOLS/TECHNOLOGIES:** Etsy, Gumroad, Notion, Canva, Midjourney/AI imagery; E008 also reports Shopify administration. Specific Shopify example pending.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Current shop activity, audited total sales/profit, fulfillment quality and conversion performance remain unverified. Do not equate product publishing with successful e-commerce growth.
 
 ## S010 — Research / evidence discipline / experimental design
 
@@ -174,11 +174,11 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 
 - **SKILL:** Set up and run small paid-social advertising experiments.
 - **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE of basics; OWNER-CONFIRMED / DOCUMENT-REPORTED. No performance expertise established.
-- **WHAT I CAN DO:** Personally set basic campaign parameters such as budget, country/targeting and creative, and launch small tests using his own product content.
-- **EVIDENCE:** E009 confirms personally setting up small DoneListing ad tests; E008 reports Meta Ads basics; website/Marketing-OS history documents additional small experiments.
+- **WHAT I CAN DO:** Personally design ad creatives, set basic campaign parameters such as budget/country/targeting, launch small paid-social tests and inspect basic traffic response.
+- **EVIDENCE:** E009/E010 confirm DoneListing and another self-directed project's ad setup; E010 specifically confirms Meta and X campaign use, owner-created visual designs and AI-assisted copy. Owner recalls some website clicks but no customers.
 - **PROJECTS USING IT:** P004, P008, P012.
-- **TOOLS/TECHNOLOGIES:** Paid-social ad interfaces; exact platform-by-platform depth and tracking stack vary.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Profitable acquisition, attribution quality, substantial budget management, conversion-rate optimization and ROAS performance remain unproven.
+- **TOOLS/TECHNOLOGIES:** Meta Ads, X ads and other small paid-social experiments documented in project history.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No successful customer acquisition from the recalled campaigns, no audited performance metrics, no proven ad A/B-testing practice, attribution expertise, substantial budget management, CRO or ROAS performance. YouTube thumbnail/title A/B testing is a separate content skill.
 
 ## S018 — SaaS/service integration and operational setup
 
@@ -199,3 +199,24 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **PROJECTS USING IT:** P012.
 - **TOOLS/TECHNOLOGIES:** n8n, Reddit source/data access, spreadsheet output.
 - **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Exact nodes/API method, production reliability, authentication pattern and client deployment are not inspected. Do not infer broad n8n consulting experience from one working personal workflow.
+
+
+## S020 — Multi-model AI workflow design / prompt specification
+
+- **SKILL:** Turn vague ideas into buildable specifications and route work across different AI agents/models.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, OWNER-CONFIRMED across repeated self-directed projects.
+- **WHAT I CAN DO:** Start from a long free-form specification or live brainstorming session, use AI to sharpen the plan, convert it into an actionable build prompt for another agent, choose models/agents based on task and cost, and iterate through review loops. For richer workflows, combine local and cloud models rather than relying on one chatbot.
+- **EVIDENCE:** E010 describes two repeated planning modes (roughly 1,000-word written specs or voice/live brainstorming), builder-prompt handoff, returning outputs to the planning agent, task-based model selection and cost-aware OpenRouter/local-model use. P003/P014/P017 contain corresponding multi-model media workflows.
+- **PROJECTS USING IT:** P001–P005, P009–P014, P017.
+- **TOOLS/TECHNOLOGIES:** ChatGPT/Codex-style coding agents, Claude-style creative agents, Hermes-style agents, OpenRouter, Ollama/local models, Parakeet transcription and project-specific providers.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Model examples are contextual and change over time. This is orchestration/specification skill, not ML model training, fine-tuning research or manual software engineering.
+
+## S021 — AI-assisted QA / human UX review
+
+- **SKILL:** Combine agent-driven technical checking with hands-on human UX/visual review.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, OWNER-CONFIRMED within personal projects.
+- **WHAT I CAN DO:** Give agents access to logs/tests where practical, ask them to diagnose technical failures, manually click through interfaces from a user perspective, identify visual/flow problems and issue specific corrections. Can provide books, examples and reference material as context when deeper domain guidance is useful.
+- **EVIDENCE:** E004 video reference-based correction; E009 filter repair loop; E010 describes log-aware agent QA plus manual UI review and source-material-assisted improvement.
+- **PROJECTS USING IT:** P001, P003–P005, P010–P011, P013, P017.
+- **TOOLS/TECHNOLOGIES:** Logs/tests, browser/manual UX review, reference examples, long-context/source material and AI agents.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No formal QA certification, automated-testing authorship or professional usability-research program. Technical diagnosis is agent-assisted rather than manual code debugging.

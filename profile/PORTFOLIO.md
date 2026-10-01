@@ -16,6 +16,7 @@ Public page descriptions are owner-published claims. Viewed artifacts establish 
 
 - **E008 — Lithuanian CV supplied by owner:** `C:\Users\endle\Desktop\pijus-kuktoras.pdf`, two pages, extracted and visually inspected 2026-10-01. Matches employment dates in E003; adds Canva, Midjourney, Shopify/Etsy/Gumroad administration, website builders, n8n basics, Meta Ads basics, photography and 50+ video experience. All are DOCUMENT-REPORTED self-assessment. Military-service wording, driving tenure, English proficiency and editing count differ; see CV.md conflict record.
 - **E009 — Owner clarification interview (2026-10-01):** owner explicitly confirms no manual coding ability; describes his repeated AI-directed build workflow, DoneListing self-testing/no external users, Marketing-OS workflow decisions, 100+ personally edited/uploaded videos, 10–15 DoneListing marketing videos, small paid-ad setup, a working n8n Reddit→spreadsheet workflow, a working local video-edit/publishing workflow used on ~20 videos, immediate availability/global mobility, Swedish data-centre duties and Ignitis customer-contract duties. OWNER-CONFIRMED personal facts; not independent external verification.
+- **E010 — Creative/AI workflow clarification interview (2026-10-01):** owner confirms roughly 400 Canva designs, hands-on logos/graphs/thumbnails/ads/social branding, Meta/X ad creative/setup, YouTube title/thumbnail A/B testing, extensive Midjourney use (owner estimate 8,000+ generated images), POD/Etsy usage, a ~10-video autonomous AI YouTube pipeline, CapCut-based manual editing, multi-model media workflows (including Ollama/OpenRouter/Parakeet examples), long-form specification/brainstorm→builder prompting, task/cost-based model routing and mixed agent-log + hands-on UX QA. OWNER-CONFIRMED; counts/results are not independently audited.
 
 Public links supplied on the portfolio can be used as evidence after factual approval. Private repositories, local files and chat records are INTERNAL ONLY: do not send them to employers or clients without explicit permission. Use public case-study links and narrow summaries instead.
 
@@ -99,9 +100,9 @@ Public links supplied on the portfolio can be used as evidence after factual app
 ## P006 — Print-on-demand shops: focusup, focusOnPosters, artwork411
 - **Problem:** Turn artwork into understandable, purchasable physical/digital products.
 - **What I built:** Portfolio documents shop/catalogue experiments, mug/clothing mockups, poster/framed-art listings, size/shipping/print explanation panels and product variants.
-- **My role:** Owner-published project account; precise personal layout/template/AI contribution awaiting confirmation. Site says hired help for some search-oriented titles/descriptions; do not attribute all copy solely to Pijus.
-- **How I approached it:** Select/adapt artwork, create product variants and present them through mockups/information graphics; iterate themes and presentation.
-- **Technologies/tools:** Etsy/POD workflows; AI-generated artwork; PNG/SVG/PDF offerings described. Canva/Midjourney and Shopify/Etsy/Gumroad experience reported in E008; exact per-product tool attribution and fulfillment provider UNKNOWN.
+- **My role:** E010 confirms hands-on creation/use of AI artwork and product presentation. Pijus generated large volumes of Midjourney imagery, selected/adapted images for print-on-demand products and personally created design/presentation assets; site says hired help for some search-oriented titles/descriptions, so do not attribute all listing copy solely to him.
+- **How I approached it:** Generate/select artwork, apply it to product types such as T-shirts, mugs and phone cases, create variants/presentation assets and publish marketplace listings.
+- **Technologies/tools:** Etsy/POD workflows, Canva and Midjourney/AI-generated artwork. Exact fulfillment provider and Shopify relationship remain UNKNOWN.
 - **AI/agent involvement:** AI artwork explicitly described; do not imply hand-drawn original illustrations.
 - **Result:** Actual historical visual/listing artifacts viewed. Catalogue totals and product counts are site-reported; current availability, revenue/profit and customer outcomes not established.
 - **Evidence/link:** [Shop history](https://pijus.xyz/lore-shops), [mug collage](https://pijus.xyz/images/focusup-1.webp), [poster listings/panel](https://pijus.xyz/images/etsy-focusonposters.webp), [framed posters/size chart](https://pijus.xyz/images/artwork%20411.webp).
@@ -123,9 +124,9 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **What I built:** Owner reports filmed/edited videos, thumbnails, posts and social content; site documents gaming recording, personal on-camera content, photography, AI mini-movies and TikTok/sketch experiments. Graphic resources include banners/CV templates.
 - **My role:** E009 owner-confirmed hands-on production. He personally filmed, manually edited and uploaded 100+ short- and long-form videos, mostly personal/talking-head content. For DoneListing he also personally filmed, edited, manually captioned and uploaded approximately 10–15 marketing videos and personally configured small paid-ad tests.
 - **How I approached it:** Repeated creation/publishing experiments and visual iteration; later automated the repetitive editing/metadata/publishing steps he disliked (see P017).
-- **Technologies/tools:** Canva and Midjourney named by site; DSLR in resale narrative; exact manual editor/camera models still UNKNOWN.
-- **AI/agent involvement:** Mixed manual and AI workflows. The 100+ video experience is hands-on; keep it separate from P003/P017 automation.
-- **Result:** Owner-confirmed 100+ self-produced edited/uploaded videos and ~10–15 DoneListing marketing videos. This is not paid client work and the count is not externally audited. Growth/reach and commercial results remain separate unknowns.
+- **Technologies/tools:** Mainly CapCut (free) for manual editing, some Canva video editing, Canva for graphic assets and Midjourney/AI image generation; exact camera models still UNKNOWN.
+- **AI/agent involvement:** Mixed manual and AI workflows. The 100+ video experience is hands-on; keep it separate from P003/P017 automation. E010 also confirms YouTube thumbnail/title A/B testing on some videos using multiple thumbnail variants.
+- **Result:** Owner-confirmed 100+ self-produced edited/uploaded videos and ~10–15 DoneListing marketing videos. Manual editing is practical/basic (cuts, captions, fades, basic colour/audio adjustments), not advanced post-production. This is not paid client work and the count is not externally audited. Growth/reach and commercial results remain separate unknowns.
 - **Evidence/link:** [Social history](https://pijus.xyz/lore-social), [services](https://pijus.xyz/together), [numbers](https://pijus.xyz/numbers), E001; design artifacts in P006/P007.
 - **Skills demonstrated:** S006–S009. Manual video quality/volume remain less well evidenced than product-layout artifacts.
 
@@ -184,14 +185,14 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **Evidence/link:** [Portfolio](https://pijus.xyz), [work](https://pijus.xyz/work), [history](https://pijus.xyz/lore), [experiments](https://pijus.xyz/lore-experiments).
 - **Skills demonstrated:** S005, S006, S008, S015; deployment/interface artifact plus owner-published role claim.
 
-## P014 — Supporting voice/content and video prototypes
-- **Problem:** Reduce friction between thoughts/photos and publishable content; explore new media workflows.
-- **What I built:** Distinct experiments: Sapphire voice/text-to-posts/newsletters/scripts; Hotkey voice-to-text; Lively photo-to-video; earlier niche→script→images→assembly→voiceover→upload system. Do not merge these with P003 footage editing.
-- **My role:** Owner-published history; role/collaborators for each prototype pending explicit confirmation.
-- **How I approached it:** Iterate integrations and learn through outputs and failures. Hotkey Linux failure and inconsistent Lively faces are recorded limitations.
-- **Technologies/tools:** Sapphire inspected Next.js/React/TypeScript, Groq Whisper/OpenRouter generation. Lively inspected Fal.AI, Stripe webhook, Vercel Blob and Resend code. Earlier system describes ElevenLabs. Technologies are artifact/report-specific.
-- **AI/agent involvement:** Agent-assisted coding and model generation/transcription; precise manual role UNKNOWN.
-- **Result:** Sapphire/Lively source exists, but current execution/deployment/output quality unverified. Lively uses in-memory session state and lacks implemented deletion cleanup; do not claim production reliability or privacy TTL. Other experiments remain documentary evidence.
+## P014 — Supporting voice/content and AI-video prototypes
+- **Problem:** Reduce friction between thoughts/photos and publishable content; explore increasingly autonomous media workflows.
+- **What I built:** Distinct experiments: Sapphire voice/text-to-posts/newsletters/scripts; Hotkey voice-to-text; Lively photo-to-video; and an earlier autonomous YouTube pipeline that could research/select a niche, generate visual assets, assemble image/video/audio, generate titles/descriptions and publish.
+- **My role:** E010 clarifies the autonomous-pipeline role: Pijus set the goal of making the system operate with minimal human input and co-designed the workflow logic with AI. Exact contribution to Sapphire/Hotkey/Lively remains artifact-specific; no manual coding claim.
+- **How I approached it:** Define the desired autonomous outcome, brainstorm workflow logic with AI, test outputs and keep iterating. Hotkey Linux failure and inconsistent Lively faces are recorded limitations.
+- **Technologies/tools:** Sapphire inspected Next.js/React/TypeScript, Groq Whisper/OpenRouter generation. Lively inspected Fal.AI, Stripe webhook, Vercel Blob and Resend code. E010 adds extensive Midjourney/AI-image use and other video-generation services whose names are not currently remembered. Technologies are artifact/report-specific.
+- **AI/agent involvement:** Agent-assisted coding plus AI generation/transcription. Owner reports the autonomous YouTube experiment published roughly 10 videos.
+- **Result:** Sapphire/Lively source exists, but current execution/deployment/output quality is unverified. The autonomous YouTube pipeline/channel/repository reportedly still exist but are not yet linked/inspected for this profile. Lively uses in-memory session state and lacks implemented deletion cleanup; do not claim production reliability or privacy TTL.
 - **Evidence/link:** Public [experiments](https://pijus.xyz/lore-experiments). Internal [Sapphire UI](https://github.com/Snake-was-here/Sapphire/blob/main/app/page.tsx), [generation route](https://github.com/Snake-was-here/Sapphire/blob/main/app/api/generate/route.ts), [Lively webhook](https://github.com/Snake-was-here/Lively/blob/main/app/api/webhook/route.ts).
 - **Skills demonstrated:** Supporting S003, S011, S012, S015; lower confidence than primary projects until attribution/execution confirmation.
 
@@ -222,11 +223,11 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **What I built:** A personal agent-operated workflow where he can give an agent a video and request the saved pipeline. The editing side can transcribe locally, add captions, apply/improve a visual filter, improve audio and cut some silence. A related publishing workflow generates platform-specific titles/descriptions and schedules content through Buffer to channels including X, Instagram and TikTok.
 - **My role:** Owner defined what should be automated, connected/maintained the required accounts/tokens, invokes the workflow through an AI agent, evaluates output and directs repairs. He does not manually code the pipeline.
 - **How I approached it:** Automate the parts of content creation he did not want to repeat while retaining human judgment over the final look. When the filter was poor, he supplied examples from older videos he liked and prompted the agent to rebuild/test the filter against those references.
-- **Technologies/tools:** Local transcription/model tooling, agent-run scripts/workflows, video-processing stack, Buffer and social-platform integrations. Exact implementation details remain project-specific.
-- **AI/agent involvement:** AI is the operator/builder; owner provides the input video, direction, approvals and service configuration.
+- **Technologies/tools:** Local transcription/model tooling, agent-run scripts/workflows, video-processing stack, Buffer and social-platform integrations. E010 gives concrete examples including Ollama for local visual/context analysis, Parakeet for transcription and OpenRouter-routed cloud models; exact current model mix remains changeable.
+- **AI/agent involvement:** AI is the operator/builder; owner provides the input video, direction, approvals and service configuration. He consciously routes work across models/agents depending on task/cost rather than binding the workflow to one provider.
 - **Result:** Owner confirms the editing workflow is working and has processed roughly 20 videos, though it is still being improved. This is personal production evidence, not client delivery.
-- **Evidence/link:** E009; overlaps with implementation artifacts in P003/P004.
-- **Skills demonstrated:** S001–S004, S006–S007, S015, S018.
+- **Evidence/link:** E009/E010; overlaps with implementation artifacts in P003/P004.
+- **Skills demonstrated:** S001–S004, S006–S007, S015, S018, S020–S021.
 
 ## Public website discovery record
 
