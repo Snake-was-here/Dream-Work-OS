@@ -6,7 +6,7 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 
 The owner supplied two CV PDFs on 2026-10-01: E003 (English seasonal-resort CV) and E008 (Lithuanian general CV). Both were extracted and visually inspected. Employment organizations and date ranges agree. Statements are DOCUMENT-REPORTED, not independent employer or credential verification. Owner authorized repository publication; this does not independently verify every source claim. Preserve differences explicitly rather than selecting the more flattering version.
 
-E009 is the owner's 2026-10-01 follow-up interview clarifying current work style, video experience, n8n use, availability/mobility and specific employment duties. E010 is a second 2026-10-01 interview focused on graphic design, paid-social setup, AI media workflows, model/tool selection, prompting/specification and QA. Both are OWNER-CONFIRMED and can resolve personal facts the owner is authoritative about, while credentials/employer records remain source-reported unless independently verified.
+E009 is the owner's 2026-10-01 follow-up interview clarifying current work style, video experience, n8n use, availability/mobility and specific employment duties. E010 is a second 2026-10-01 interview focused on graphic design, paid-social setup, AI media workflows, model/tool selection, prompting/specification and QA. E011 is a third 2026-10-01 clarification covering SaaS integrations, MCP-style tool setup, messaging interfaces and multi-agent teams. These are OWNER-CONFIRMED personal facts; credentials/employer records remain source-reported unless independently verified.
 
 ## Employment
 
@@ -71,6 +71,8 @@ E009 is the owner's 2026-10-01 follow-up interview clarifying current work style
 - Agent prompting/specification: owner commonly starts with either a long free-form specification (often around 1,000 words) or a live brainstorming conversation, then asks one agent to convert the result into an actionable build prompt for another implementation agent. He iterates by bringing outputs back into the planning/review loop.
 - QA/review: for technical failures he gives agents access to logs/tests where practical; for UX/design he manually clicks through the product, judges the interface himself and gives specific corrections to layout/colour/flow. He sometimes supplies books, examples or other source material as context to improve an agent's output.
 - Model/tool routing: owner chooses different agents/models based on task and cost—for example creative-writing-oriented models versus coding agents, and OpenRouter/local models when cost or specialized capability matters. Do not treat these examples as permanent model preferences.
+- Agent-system setup: owner confirms hands-on setup of supporting services around AI agents, including GitHub, Vercel, Stripe, Clerk and model-routing services; MCP-style tool integrations; hosted/personal agent environments; and Telegram/Discord connections so agent systems can be used through messaging interfaces as well as terminals.
+- Multi-agent teams: owner has configured multiple Hermes-style systems. One setup used roughly ten specialized agents, each with a distinct role/job. Exact current architecture and individual integration inventory are not yet fully mapped.
 - Photography: reported; related resale artifacts in P016.
 - CV skill ratings are self-assessment, not certifications or evidence of advanced expertise. Map narrower capabilities to SKILLS.md.
 
