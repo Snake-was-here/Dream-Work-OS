@@ -106,7 +106,7 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **AI/agent involvement:** AI artwork explicitly described; do not imply hand-drawn original illustrations.
 - **Result:** Actual historical visual/listing artifacts viewed. Catalogue totals and product counts are site-reported; current availability, revenue/profit and customer outcomes not established.
 - **Evidence/link:** [Shop history](https://pijus.xyz/lore-shops), [mug collage](https://pijus.xyz/images/focusup-1.webp), [poster listings/panel](https://pijus.xyz/images/etsy-focusonposters.webp), [framed posters/size chart](https://pijus.xyz/images/artwork%20411.webp).
-- **Skills demonstrated:** S005, S006, S008, S009; visual artifacts inspected, detailed authorship pending.
+- **Skills demonstrated:** S005, S006, S008, S009; visual artifacts inspected and E010 confirms hands-on AI-art/product-design contribution. Exact per-listing copy/fulfillment attribution remains separate.
 
 ## P007 — Gumroad resources / Notion Student OS
 - **Problem:** Package useful workspaces, text resources and design templates as understandable digital products.
@@ -133,7 +133,7 @@ Public links supplied on the portfolio can be used as evidence after factual app
 ## P009 — Trading-OS
 - **Problem:** Investigate prospective market signals without confusing hindsight, data outages or simulated prices with actual execution.
 - **What I built:** Read-only GMGN integration, discovery/filtering, SQLite event journal, point-in-time evidence, versioned hypotheses, paper positions/risk/exit policies, reports and local dashboard.
-- **My role:** Owner-confirmed idea originator and sole AI-agent director; hand-written code share UNKNOWN.
+- **My role:** Owner-confirmed idea originator and sole AI-agent director. E009 establishes that he does not manually write code; implementation was agent-produced under his direction.
 - **How I approached it:** Reuse providers, respect free-tier request budgets, preserve raw/rejected/unknown observations, distinguish data gaps from no-fill, compare frozen policies on observed marks.
 - **Technologies/tools:** Node.js/JavaScript ESM, built-in SQLite, GMGN CLI, local HTTP dashboard, HTML/CSS/browser JavaScript and Node tests. Optional shadow adapters are not evidence of live usage.
 - **AI/agent involvement:** AI-assisted research, implementation and operational debugging; core collection and paper journal are deterministic tooling.
@@ -159,7 +159,7 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **How I approached it:** Find → verify → match → review → draft → separate human send → track → learn. Keep repository rules distinct from live sheet history; preserve human decisions and clarify duplicates.
 - **Technologies/tools:** Markdown, Google Sheets formulas/validation, Node.js/JavaScript UUID/planning utilities, Node test runner and GitHub.
 - **AI/agent involvement:** Agents implement/discover/match/draft; owner reviews and authorizes consequential actions.
-- **Result:** Checkout/implementation and historical verification reviewed. Record documents six tests and live formula/dropdown/linking checks, with three provisional opportunities and no sent messages at that checkpoint. Scheduler's first run and paid-work outcomes unverified. Current sheet not re-audited for this profile task.
+- **Result:** Checkout/implementation and historical verification reviewed. Record documents six tests and live formula/dropdown/linking checks, with three provisional opportunities and no sent messages at that checkpoint. The owner currently intends to run discovery manually rather than rely on a scheduler. Paid-work outcomes remain unproven. Current sheet was not re-audited for this profile update.
 - **Evidence/link:** Internal [repository](https://github.com/Snake-was-here/Dream-Work-OS), [verification](https://github.com/Snake-was-here/Dream-Work-OS/blob/main/docs/VERIFICATION.md), `tools/pipeline.cjs`; E005. Inspected checkout matches remote HEAD `cf8263bfd068a91b36b5b8acec1aadc6b701c099` at inspection.
 - **Skills demonstrated:** S001–S005, S010, S015. Outcome tracking exists; it is not evidence that paid work has resulted.
 
@@ -199,7 +199,7 @@ Public links supplied on the portfolio can be used as evidence after factual app
 ## P015 — Ripple_Rate content bot
 - **Problem:** Repeatedly turn a small cryptocurrency data feed into social content.
 - **What I built:** Site describes a bot posting three cryptocurrency prices with hooks/CTAs, server/scripts, then meme experiments.
-- **My role:** Owner-published historical account; exact coding/agent contribution UNKNOWN.
+- **My role:** Owner-published historical account; no manual coding claim. Exact product-direction/agent-orchestration contribution still needs owner clarification.
 - **How I approached it:** Combine data retrieval, content formatting and publishing experimentation.
 - **Technologies/tools:** Rented server/scripts reported; languages/providers UNKNOWN.
 - **AI/agent involvement:** UNKNOWN for each step.
@@ -237,7 +237,7 @@ Inspected recursively linked pages: `/`, `/work`, `/lore`, `/together`, `/doneli
 
 ## Metrics and claims excluded from unqualified applications
 
-The `/numbers` page reports 27,776 trees planted, 4,000+ videos filmed, 100+ edited videos, 11,000+ photos, 1,000+ Midjourney images, 442 Canva designs, 100+ uploaded products, 15 internet identities, 28 first online sales, ten countries and eight official jobs. These counters are not independently audited. E009 separately confirms the narrower claim that Pijus personally edited/uploaded 100+ short- and long-form videos; keep that owner-confirmed experience distinct from the broader website counters and do not infer customer revenue from sales numbers.
+The `/numbers` page reports 27,776 trees planted, 4,000+ videos filmed, 100+ edited videos, 11,000+ photos, 1,000+ Midjourney images, 442 Canva designs, 100+ uploaded products, 15 internet identities, 28 first online sales, ten countries and eight official jobs. These counters are not independently audited. E009 separately confirms the narrower claim that Pijus personally edited/uploaded 100+ short- and long-form videos. E010 gives newer owner estimates of roughly 400 Canva designs and 8,000+ Midjourney generations; treat those as owner-reported current recollection rather than audited totals, and do not infer customer revenue from sales numbers.
 
 The site also mentions forestry/tree planting, Iceland tyre work and military retraining. Employers, dates and scope need confirmation before adding CV entries. Do not infer that all ten-hour-day accounts apply to every job.
 

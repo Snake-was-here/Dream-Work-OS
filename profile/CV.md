@@ -99,4 +99,6 @@ E009 is the owner's 2026-10-01 follow-up interview clarifying current work style
 - Iceland tyre-changing narrative may correspond to C002, but that link is not confirmed.
 
 ## Material gaps
-Highest-value remaining gaps are omitted overseas work history (Germany/Denmark/Netherlands/Norway), military service category/dates, education completion details, Klettur location/details, exact MEWP credential status, representative public examples of manual video work, and any future paid client results. Current availability/mobility and the absence of paid client delivery are now owner-confirmed. Pending facts do not prevent opportunity discovery, but must not become confident application answers.
+For the current AI/product/automation job search, the highest-value gaps are: representative public video/design examples; exact links/repository for the autonomous YouTube pipeline; stronger attribution/details for Gumroad/Notion products, personal websites and older automation experiments; a concrete Shopify example if one exists; clearer outcomes from YouTube A/B tests and social/ad experiments; exact social/channel links the owner is comfortable sharing; and any future paid-client results.
+
+Lower-priority background gaps remain in overseas physical-work history, military service details, education completion, Klettur details and MEWP credential status. These matter only when an opportunity makes them relevant. Current availability/mobility, no-manual-coding boundary and absence of paid client delivery are owner-confirmed.

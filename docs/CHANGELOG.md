@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — AI-search gap reprioritization
+- Reframed remaining profile gaps around the actual target: AI/product/automation/content roles, rather than low-priority physical-job credential details.
+- Cleaned stale portfolio wording that still implied unknown manual coding or an active scheduler.
+- Reconciled older public-site counters with newer owner-reported Canva/Midjourney estimates without presenting either as audited totals.
+
 ## 2026-10-01 — Creative, AI-media and orchestration depth
 - Added owner-confirmed hands-on Canva design breadth (~400 designs): logos, graphs, thumbnails, ads, profile images, banners and social branding.
 - Clarified paid-social experience: owner-designed creatives and campaign setup on Meta/X, some remembered website clicks but no customers; no unsupported claim of ad A/B-testing expertise. Added separate YouTube title/thumbnail A/B-testing experience.
