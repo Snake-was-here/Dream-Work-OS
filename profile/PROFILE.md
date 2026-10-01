@@ -4,25 +4,27 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 
 ## Professional summary
 
-Pijus is a solo founder and practical product/automation generalist who works through AI agents. He originates product ideas, defines what a useful result should do, directs agents through implementation, and iterates the resulting tools. His strongest evidence concerns turning practical objectives into structured workflows and inspectable software artifacts, rather than independently writing every line of code.
+Pijus is an AI-native product and automation generalist who turns ideas and repetitive problems into working systems by using AI agents as both thinking partners and builders. He **does not manually write code**. His personal contribution is defining the problem and desired outcome, brainstorming and choosing directions with AI, decomposing work into actionable tasks, steering implementation agents, connecting external services/accounts, configuring credentials and integrations, reviewing UX/visual quality, testing real behaviour, and directing fixes until the system is usable.
 
-His work spans an AI listing product, marketing and media workflows, a local video-editing system, paper-only market research, and a Lithuanian-first browser voice prototype. He also has public artifacts in digital product packaging, e-commerce presentation, templates and visual layout, alongside CV-reported customer service, technical installation and workshop work. These are distinct capabilities; assess their relevance to each opportunity instead of presenting him only as an “AI person.”
+This working style is demonstrated by taking DoneListing from an idea to a deployed subscription SaaS, designing Marketing-OS workflows for lead discovery/content operations, building local video-editing and video-to-social automations, and directing several other agent-built systems. He is strongest where a team needs someone who can own an outcome across product, automation, AI tools, integrations and iteration without requiring him to be a traditional hand-coding software engineer.
+
+His background also includes 100+ self-produced edited/uploaded videos, DoneListing marketing content and small paid-ad experiments, digital product/e-commerce presentation, customer-facing electricity-contract work, data-centre cabling/server installation and workshop operations.
 
 ## Most useful demonstrated capabilities
 
 | Capability | Relevant proof | Scope |
 |---|---|---|
-| Direct AI implementation from a product objective | P001–P005, P009–P011; owner confirms originating the six named project ideas and directing agents solo | Product requirements and agent orchestration; manual coding depth UNKNOWN |
-| Design workflows with explicit decisions, state and checks | P002–P005, P009–P011 | Agent contracts, versioned plans, research records, handoffs, approval gates |
-| Iterate technical and creative output | P003; source conversation E004 | Specifies natural skin, black detail, colour, geometry/audio checks, reference comparison and next-agent documentation |
-| Package digital products and communicate visually | P006–P008 | Visible shop/product layouts, mockups, template previews and copy; authorship/tool details pending |
-| Bridge digital and hands-on operational work | CV entries C001–C003 | Customer support, servers/cabling and tyre work, consistent across both supplied CVs; publication authorized; unresolved details remain unconfirmed |
+| AI-directed product delivery from idea to working system | P001–P005, P009–P011, P017; E002/E009 | Defines outcomes, chooses direction with AI, steers agents, connects services, tests and iterates; no manual coding claim |
+| Workflow automation and tool integration | P003–P005, P011–P012, P017 | Agent-run local workflows, n8n, Buffer, Google Sheets, APIs/CLIs, SaaS integrations and operational handoffs |
+| Product/UX and visual judgment | P001, P003, P006–P008, P013 | Human review of colours/layout/flow, reference-based correction, product presentation and practical MVP decisions |
+| Hands-on content production | P008, P017 | 100+ personally edited/uploaded short- and long-form videos plus 10–15 DoneListing marketing videos |
+| Bridge digital and hands-on operational work | CV entries C001–C003 | Customer contracts/sales, Swedish data-centre cabling/server installation and tyre-service work |
 
 ## Problem-based retrieval
 
 - Product photo → structured listing and reusable exports: P001; S001, S002, S003, S012.
-- Repetitive content workflow needing agent decisions, QA and human review: P002, P004; S001–S004.
-- Footage → repeatable edits with controllable look and preserved originals: P003; S002, S004, S006, S007.
+- Repetitive content workflow needing agent decisions, QA and human review: P002, P004, P017; S001–S004.
+- Footage → repeatable edits with controllable look and preserved originals: P003, P017; S002, S004, S006, S007.
 - A small business needing clearer product presentation, templates or a storefront: P006–P008; S005, S008, S009.
 - Research automation that must preserve provenance and handle missing data: P009; S002, S004, S010, S012.
 - Adapting an existing browser tool for voice interaction: P010; S001–S003, S011.
@@ -34,7 +36,10 @@ His work spans an AI listing product, marketing and media workflows, a local vid
 - Name: Pijus Kuktoras (both owner-supplied CVs, E003/E008).
 - Solo founder; original ideas and sole direction of agent work for DoneListing, Hermes, Video Editor Agent, Marketing OS, Trading-OS and Jev Neo: explicitly confirmed by owner on 2026-10-01 (E002).
 - Portfolio: https://pijus.xyz. GitHub account supplied by owner: https://github.com/Snake-was-here.
-- Seeking: paid employment, freelance/contract projects and startup opportunities. Preferred commercial arrangement, equity-only tolerance and current availability/working location/pay floor/travel constraints: UNKNOWN. E008 records a historical €2,000 net salary preference and Ukmergė; these are not confirmed current constraints.
+- Seeking: paid employment, part-time/full-time roles, freelance/contract work and short paid projects. Owner confirms immediate availability.
+- Work mode/mobility: open to remote, hybrid or on-site work; prefers being around a live team when practical. Willing to relocate globally, including Europe, Asia and elsewhere, subject to visa/work authorization. US relocation is possible if appropriate authorization/sponsorship exists.
+- Commercial boundary: owner confirms no completed paid client/freelance delivery yet. Do not turn self-directed products, Fiverr listings or personal projects into client work.
+- Implementation boundary: owner confirms he does not manually write code. Agents write/modify code; Pijus directs requirements, tool choice, integrations, testing and iteration. Do not market him as a traditional software engineer or imply hand-coding proficiency.
 - Supplied CVs report Lithuanian/EU citizenship, native Lithuanian, strong working English and full Category B licence. English wording and driving tenure differ; see CV.md. Confirm credential validity when relevant.
 - Education is recorded factually in CV.md. Lack of a university qualification must not be treated as lack of ability; mandatory qualifications remain genuine eligibility requirements.
 
@@ -42,6 +47,8 @@ His work spans an AI listing product, marketing and media workflows, a local vid
 
 Read all four files. Select the actual problem, retrieve matching project IDs and skill IDs, and include the smallest relevant evidence set. Distinguish direct experience from adjacent learning. Do not dump the whole profile into an application.
 
-Capability level and evidence provenance are separate: PROVEN does not mean independent hand coding, production scale, client experience or commercial success. An artifact can be real while its personal authorship, testing or outcome remains unknown. Use the explicit boundary in each entry.
+Capability level and evidence provenance are separate: PROVEN does not mean independent hand coding, production scale, client experience or commercial success. In this profile, manual coding is explicitly **not** part of the owner's skill set. Code stacks listed under projects describe systems he directed and operated through AI agents, not languages he can independently write.
+
+For matching, prefer roles/problems involving AI-assisted product building, automation, agent orchestration, workflow design, tool/service integration, product operations, rapid prototyping, content systems and practical cross-functional execution. Flag traditional coding interviews or roles requiring independent implementation in a programming language as a real gap rather than assuming the agent-assisted workflow is equivalent.
 
 The owner authorized this repository update on 2026-10-01. This authorizes publication of the evidence record; it does not resolve every source difference. Owner-confirmed facts and reviewed artifacts support narrow claims within their stated boundaries. Use document-reported history with its provenance; confirm unresolved facts before answering consequential eligibility or qualification questions. Never convert marketing copy, historical screenshots, inherited upstream work or test configuration into a verified outcome. Private source links are internal evidence, not permission to share them externally. Keep professional contacts in the operational sheet, as the repository instructs.

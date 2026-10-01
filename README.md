@@ -19,7 +19,9 @@ The repository holds the operating rules and verified profile. The [Google Sheet
 
 ## Start with honest evidence
 
-The initial profile contains the owner's self-reported skills, not verified employment or results. [CV.md](profile/CV.md) and [PORTFOLIO.md](profile/PORTFOLIO.md) intentionally contain no invented history. Add reviewed evidence to unlock stronger matching and outreach. Missing location, work eligibility, availability, and pay preferences remain visible unknowns; agents must not fill them by assumption.
+The profile combines reviewed artifacts, document-reported history, and owner-confirmed facts. [CV.md](profile/CV.md), [SKILLS.md](profile/SKILLS.md), and [PORTFOLIO.md](profile/PORTFOLIO.md) intentionally separate direct evidence from self-report and never invent client work, coding ability, outcomes, or credentials.
+
+Current owner-confirmed facts include immediate availability, openness to full-time/part-time/contract/project work, global relocation subject to work authorization, hands-on video production, n8n workflow use, and an explicit boundary that the owner does **not** manually write code. Agents should match him as an AI-native product/automation generalist who directs agents and integrates tools, not as a traditional software engineer. Remaining unknowns stay visible rather than being guessed.
 
 ## Operating references
 

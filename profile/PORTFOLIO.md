@@ -15,6 +15,7 @@ Public page descriptions are owner-published claims. Viewed artifacts establish 
 - **E007 — Implementation audit:** read-only local code/docs and connected GitHub inspection. Source links below may be private. No tests rerun, services started or APIs paid for. Successful workflow metadata for the specified Marketing-OS runs was read live; business state records were not refreshed.
 
 - **E008 — Lithuanian CV supplied by owner:** `C:\Users\endle\Desktop\pijus-kuktoras.pdf`, two pages, extracted and visually inspected 2026-10-01. Matches employment dates in E003; adds Canva, Midjourney, Shopify/Etsy/Gumroad administration, website builders, n8n basics, Meta Ads basics, photography and 50+ video experience. All are DOCUMENT-REPORTED self-assessment. Military-service wording, driving tenure, English proficiency and editing count differ; see CV.md conflict record.
+- **E009 — Owner clarification interview (2026-10-01):** owner explicitly confirms no manual coding ability; describes his repeated AI-directed build workflow, DoneListing self-testing/no external users, Marketing-OS workflow decisions, 100+ personally edited/uploaded videos, 10–15 DoneListing marketing videos, small paid-ad setup, a working n8n Reddit→spreadsheet workflow, a working local video-edit/publishing workflow used on ~20 videos, immediate availability/global mobility, Swedish data-centre duties and Ignitis customer-contract duties. OWNER-CONFIRMED personal facts; not independent external verification.
 
 Public links supplied on the portfolio can be used as evidence after factual approval. Private repositories, local files and chat records are INTERNAL ONLY: do not send them to employers or clients without explicit permission. Use public case-study links and narrow summaries instead.
 
@@ -38,15 +39,16 @@ Public links supplied on the portfolio can be used as evidence after factual app
 | P014 | Voice/content and video prototypes | Unfamiliar-tool exploration | Mixed code, narrative and failed/inconsistent experiments |
 | P015 | Ripple_Rate | Scheduled data/content experiment | Website narrative; operational claims not independently tested |
 | P016 | Vinted resale | Photography; merchandising; small-scale commerce | Historical account/listing screenshot; profits self-report |
+| P017 | Local video-to-social workflow | Agent-operated personal content automation | Owner-confirmed working use on ~20 edited videos; still evolving |
 
 ## P001 — DoneListing
 - **Problem:** Help Etsy sellers turn a product photo and limited context into a usable listing draft.
 - **What I built:** AI-assisted web product with image/context input, structured title/description/bullets/tags/keywords output, authentication, subscription/quota and billing code.
-- **My role:** Owner-confirmed solo founder, idea originator and sole director of AI agents. Source checkpoints support deliberate interface iteration; independent hand-coding contribution UNKNOWN.
-- **How I approached it:** Directed a bounded user flow; implementation uses response schemas and semantic checks, controlled repair, quota reservation/release, signed billing events and duplicate-event protection.
+- **My role:** Owner-confirmed solo founder, idea originator and sole director of AI agents. E009 clarifies that he does not manually code: he shaped the product, used AI to turn the idea into actionable implementation work, directed build agents, connected/configured services and reviewed/tested the resulting product.
+- **How I approached it:** Defined the photo→listing user flow, iterated the product with agents, connected services such as authentication/deployment/billing around the AI-built application, and continued from quick MVP to the much longer polish/integration phase. Source implementation uses response schemas, quota handling and billing-event protections.
 - **Technologies/tools:** Next.js, React, TypeScript, Tailwind, Framer Motion, Clerk, Stripe, Neon PostgreSQL, OpenRouter, Vitest, Vercel, GitHub Actions. These are inspected product dependencies, not proof of equal personal proficiency in every tool.
 - **AI/agent involvement:** Agents implement product code; model generation converts image/context to structured listing text.
-- **Result:** Live landing and studio interface viewed. Historical record documents founder Free generation/quota checks and controlled Preview billing/sandbox generation. Current model quality, live payment behavior, customers and revenue UNKNOWN. No promotional lift/time-saving claim accepted as a measured outcome.
+- **Result:** Live landing and studio interface viewed. Owner confirms the product is deployed and usable from his side, but **no external users/customers have used it yet**; testing has been his own. Historical record documents founder Free generation/quota checks and controlled Preview billing/sandbox generation. Live customer payment behaviour, revenue and market demand remain unproven. Owner's main product lesson is that building/MVP speed and distribution/marketing are separate problems.
 - **Evidence/link:** Public [case study](https://pijus.xyz/donelisting), [product](https://www.donelisting.com), [studio](https://www.donelisting.com/create). Internal [architecture](https://github.com/Snake-was-here/listcraft-ai/blob/main/ARCHITECTURE_AND_OPERATIONS.md), [generation route](https://github.com/Snake-was-here/listcraft-ai/blob/main/app/api/generate/route.ts), [controlled test record](https://github.com/Snake-was-here/listcraft-ai/blob/main/current_and_future_testing.md), [UI checkpoint](https://github.com/Snake-was-here/listcraft-ai/blob/main/memory/checkpoint-ui-overhaul-2026-06-14.md).
 - **Skills demonstrated:** S001–S005, S012, S015. Confidence: strong artifact/role evidence, commercial result unproven.
 
@@ -68,15 +70,15 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **How I approached it:** Separate creative decisions from deterministic validation/rendering; preserve earlier plans; require preview/final comparison and output measurements. Specify colourful images, natural skin, true blacks with detail, subtle grain/vignette and source-aware geometry/lighting.
 - **Technologies/tools:** Python, FFmpeg/FFprobe, Click, NumPy, Pillow/OpenCV, scene detection, Whisper/faster-whisper/Parakeet components, OCR and optional Ollama vision support.
 - **AI/agent involvement:** Transcript and hook decisions, coding/refinement, optional visual analysis; deterministic code executes approved plans.
-- **Result:** Actual local 15-second MP4 and saved QA pass inspected; report records 1080×720, −17.93 LUFS and −1.44 dBTP. Documentation records 81 tests plus 14 subtests passed on 2026-09-29, not rerun here. No universal look quality, client delivery or professional listening acceptance established.
+- **Result:** Actual local 15-second MP4 and saved QA pass inspected; report records 1080×720, −17.93 LUFS and −1.44 dBTP. Documentation records 81 tests plus 14 subtests passed on 2026-09-29, not rerun here. E009 additionally confirms the evolving editing workflow has processed roughly 20 personal videos. When a filter looked wrong, the owner supplied preferred old-video examples and directed an agent to rebuild/test the filter rather than editing source code manually. No universal look quality, client delivery or professional listening acceptance established.
 - **Evidence/link:** Public [case study](https://pijus.xyz/video-editor). Internal [repository](https://github.com/Snake-was-here/video-editor-agent), `src/vidtool/adaptive_look.py`, `src/vidtool/hooks.py`, `LOOK_WORKFLOW.md`, relevant test files; local `work/filter-review/final_review/reports/qa_report.json`; E004. Inspected local revision `34d3d15` plus working-tree artifacts; remote parity not assumed.
 - **Skills demonstrated:** S001–S004, S006, S010, S015. Does not independently verify manual-video count in S007.
 
 ## P004 — Marketing-OS
 - **Problem:** Give replaceable agents enough durable context to work on DoneListing marketing and reduce repetitive founder operations.
 - **What I built:** Repository of product/claim records, strategy, research, experiments, content manifests, CRM/policy states, handoffs, reusable agent skills and integration/validation utilities.
-- **My role:** Owner-confirmed solo founder/director. Reviewed founder directive records goals, budget, source hierarchy, boundaries and exception-based involvement.
-- **How I approached it:** Research → bottleneck → falsifiable experiment → action → measurement → learning. Separate agent judgment from deterministic utilities and draft completion from business results.
+- **My role:** Owner-confirmed solo founder/director. E009 clarifies that the system was not generated from a one-line “build marketing” instruction: he identified needs such as lead discovery and persistent lead storage, chose X API + Google Sheets with specific fields/statuses, and used AI as a thinking partner while retaining direction/approval.
+- **How I approached it:** Research → bottleneck → falsifiable experiment → action → measurement → learning. Build specific workflows for lead discovery/CRM and multi-platform content, separate agent judgment from deterministic utilities, and keep draft completion distinct from business results.
 - **Technologies/tools:** Python, JSON/schema/manifests, GitHub Actions, Buffer API, Cloudflare R2/Worker JavaScript, read-only X API discovery and Google Sheets operational contracts. PostHog tooling exists but analytics deployment is deferred.
 - **AI/agent involvement:** Agents research, plan, generate assets, evaluate and preserve context; coded tools validate/integrate workflows.
 - **Result:** Implementation and experiment records exist; P005 is a concrete production-preparation example. State record dated 2026-09-27 reports zero verified customers/MRR at its checkpoint. Not refreshed live; growth, conversion and revenue success remain unproven.
@@ -119,11 +121,11 @@ Public links supplied on the portfolio can be used as evidence after factual app
 ## P008 — Manual content, photography, thumbnails and graphics
 - **Problem:** Create and present content for personal channels and digital product offers.
 - **What I built:** Owner reports filmed/edited videos, thumbnails, posts and social content; site documents gaming recording, personal on-camera content, photography, AI mini-movies and TikTok/sketch experiments. Graphic resources include banners/CV templates.
-- **My role:** Manual editing count and filming/creative capabilities self-reported; representative original videos and edit breakdown requested. Listed Fiverr offers do not establish completed paid engagements.
-- **How I approached it:** Repeated creation/publishing experiments and visual iteration; exact historical workflow varies and is incompletely recorded.
-- **Technologies/tools:** Canva and Midjourney named by site; DSLR in resale narrative; manual editor/camera models UNKNOWN.
-- **AI/agent involvement:** Mixed manual and AI workflows. Keep manual editing separate from P003 automation.
-- **Result:** Selected graphics and historical account/content screenshots exist; approximately 100 edited videos is self-report. Growth, reach, professional client work and commercial results UNKNOWN.
+- **My role:** E009 owner-confirmed hands-on production. He personally filmed, manually edited and uploaded 100+ short- and long-form videos, mostly personal/talking-head content. For DoneListing he also personally filmed, edited, manually captioned and uploaded approximately 10–15 marketing videos and personally configured small paid-ad tests.
+- **How I approached it:** Repeated creation/publishing experiments and visual iteration; later automated the repetitive editing/metadata/publishing steps he disliked (see P017).
+- **Technologies/tools:** Canva and Midjourney named by site; DSLR in resale narrative; exact manual editor/camera models still UNKNOWN.
+- **AI/agent involvement:** Mixed manual and AI workflows. The 100+ video experience is hands-on; keep it separate from P003/P017 automation.
+- **Result:** Owner-confirmed 100+ self-produced edited/uploaded videos and ~10–15 DoneListing marketing videos. This is not paid client work and the count is not externally audited. Growth/reach and commercial results remain separate unknowns.
 - **Evidence/link:** [Social history](https://pijus.xyz/lore-social), [services](https://pijus.xyz/together), [numbers](https://pijus.xyz/numbers), E001; design artifacts in P006/P007.
 - **Skills demonstrated:** S006–S009. Manual video quality/volume remain less well evidenced than product-layout artifacts.
 
@@ -160,16 +162,16 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **Evidence/link:** Internal [repository](https://github.com/Snake-was-here/Dream-Work-OS), [verification](https://github.com/Snake-was-here/Dream-Work-OS/blob/main/docs/VERIFICATION.md), `tools/pipeline.cjs`; E005. Inspected checkout matches remote HEAD `cf8263bfd068a91b36b5b8acec1aadc6b701c099` at inspection.
 - **Skills demonstrated:** S001–S005, S010, S015. Outcome tracking exists; it is not evidence that paid work has resulted.
 
-## P012 — n8n product-mention discovery experiment
-- **Problem:** Find relevant Reddit product mentions and save links for review.
-- **What I built:** Website describes an n8n discovery workflow and a small related advertising experiment.
-- **My role:** Owner-published account; precise build/contribution not independently inspected.
-- **How I approached it:** Automate discovery and preserve candidate links for later judgment.
-- **Technologies/tools:** n8n and Reddit, as reported; workflow export/provider integration UNKNOWN.
-- **AI/agent involvement:** Site places it among AI-assisted experiments; exact division UNKNOWN.
-- **Result:** Documentary self-report only. €5 advertising budget and €0.04 CPC are site claims, not verified results or evidence of sales.
-- **Evidence/link:** [Experiments](https://pijus.xyz/lore-experiments).
-- **Skills demonstrated:** Supporting WORKING KNOWLEDGE claim for n8n/research workflow exposure; verify exported workflow before claiming reliable execution.
+## P012 — n8n product-mention discovery workflow
+- **Problem:** Find relevant Reddit product mentions and save structured results for review without manually reading every post.
+- **What I built:** Owner confirms a working n8n workflow that can be started with a button, reads a selected subreddit, searches for relevant products/mentions and writes the findings into a spreadsheet.
+- **My role:** Owner-confirmed builder/operator through n8n and AI assistance; exact node configuration/export has not been independently inspected.
+- **How I approached it:** Turn repetitive discovery into a reviewable structured workflow rather than manually browsing every item.
+- **Technologies/tools:** n8n, Reddit source/data access, spreadsheet output; exact API/auth method UNKNOWN.
+- **AI/agent involvement:** AI assisted the build; owner defined and used the workflow.
+- **Result:** Working personal workflow according to E009. Production reliability, client deployment and large-scale operation are unproven. Separate historical advertising numbers on the website remain site-reported claims.
+- **Evidence/link:** [Experiments](https://pijus.xyz/lore-experiments), E009.
+- **Skills demonstrated:** S003, S010, S015, S019.
 
 ## P013 — Personal websites / pijus.xyz
 - **Problem:** Present a broad body of work through a coherent professional and personal portfolio.
@@ -215,6 +217,17 @@ Public links supplied on the portfolio can be used as evidence after factual app
 - **Evidence/link:** [Shop history](https://pijus.xyz/lore-shops), [historical screenshot](https://pijus.xyz/images/vinted.webp).
 - **Skills demonstrated:** S008–S009; resourcefulness, merchandising and fulfilment exposure at small scale, without inflated business claims.
 
+## P017 — Local video-to-social workflow
+- **Problem:** Pijus wanted to create/publish content but disliked repetitive manual editing, captions, titles/descriptions and cross-platform scheduling.
+- **What I built:** A personal agent-operated workflow where he can give an agent a video and request the saved pipeline. The editing side can transcribe locally, add captions, apply/improve a visual filter, improve audio and cut some silence. A related publishing workflow generates platform-specific titles/descriptions and schedules content through Buffer to channels including X, Instagram and TikTok.
+- **My role:** Owner defined what should be automated, connected/maintained the required accounts/tokens, invokes the workflow through an AI agent, evaluates output and directs repairs. He does not manually code the pipeline.
+- **How I approached it:** Automate the parts of content creation he did not want to repeat while retaining human judgment over the final look. When the filter was poor, he supplied examples from older videos he liked and prompted the agent to rebuild/test the filter against those references.
+- **Technologies/tools:** Local transcription/model tooling, agent-run scripts/workflows, video-processing stack, Buffer and social-platform integrations. Exact implementation details remain project-specific.
+- **AI/agent involvement:** AI is the operator/builder; owner provides the input video, direction, approvals and service configuration.
+- **Result:** Owner confirms the editing workflow is working and has processed roughly 20 videos, though it is still being improved. This is personal production evidence, not client delivery.
+- **Evidence/link:** E009; overlaps with implementation artifacts in P003/P004.
+- **Skills demonstrated:** S001–S004, S006–S007, S015, S018.
+
 ## Public website discovery record
 
 Inspected recursively linked pages: `/`, `/work`, `/lore`, `/together`, `/donelisting`, `/hermes`, `/video-editor`, `/marketing-os`, `/lore-shops`, `/lore-experiments`, `/lore-social`, `/agent-path`, `/numbers` on https://pijus.xyz.
@@ -223,7 +236,7 @@ Inspected recursively linked pages: `/`, `/work`, `/lore`, `/together`, `/doneli
 
 ## Metrics and claims excluded from unqualified applications
 
-The `/numbers` page reports 27,776 trees planted, 4,000+ videos filmed, 100+ edited videos, 11,000+ photos, 1,000+ Midjourney images, 442 Canva designs, 100+ uploaded products, 15 internet identities, 28 first online sales, ten countries and eight official jobs. These are SELF-REPORTED counters, not independently audited totals. The owner brief uses approximately 100 edited videos. Do not reconcile scope/time differences by guessing or infer customer revenue from sales counters.
+The `/numbers` page reports 27,776 trees planted, 4,000+ videos filmed, 100+ edited videos, 11,000+ photos, 1,000+ Midjourney images, 442 Canva designs, 100+ uploaded products, 15 internet identities, 28 first online sales, ten countries and eight official jobs. These counters are not independently audited. E009 separately confirms the narrower claim that Pijus personally edited/uploaded 100+ short- and long-form videos; keep that owner-confirmed experience distinct from the broader website counters and do not infer customer revenue from sales numbers.
 
 The site also mentions forestry/tree planting, Iceland tyre work and military retraining. Employers, dates and scope need confirmation before adding CV entries. Do not infer that all ten-hour-day accounts apply to every job.
 

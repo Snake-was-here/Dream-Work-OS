@@ -7,16 +7,17 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **WORKING KNOWLEDGE:** meaningfully used or described with a concrete artifact, but personal detail or repeatability is less established.
 - **LEARNABLE/ADJACENT:** reasonable transfer from related work, not direct prior experience.
 - Provenance: OWNER-CONFIRMED, ARTIFACT-REVIEWED, DOCUMENT-REPORTED or SELF-REPORTED. Publication is owner-authorized; unresolved personal details and claims remain labelled. “Tools” lists project tools; it is not a claim that Pijus can independently program in each language.
+- **Coding boundary:** owner explicitly confirms he does not manually write code. Code is produced/modified by AI agents. His demonstrated skill is directing those agents, integrating services, testing outputs and iterating systems. Do not convert stack exposure into hand-coding proficiency.
 
 ## S001 — AI agent orchestration / goal-to-implementation direction
 
 - **SKILL:** AI agent orchestration / goal-to-implementation direction.
-- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, high for owner direction; implementation independence UNKNOWN.
-- **WHAT I CAN DO:** Originate a practical objective, specify requirements, direct agents, request iteration and handoffs.
-- **EVIDENCE:** E002 confirms sole agent direction of six projects; E004 demonstrates concrete visual acceptance requirements; E005 demonstrates product brief and correction toward simpler architecture.
-- **PROJECTS USING IT:** P001–P005, P009–P011.
-- **TOOLS/TECHNOLOGIES:** AI coding/execution agents; Codex conversations directly reviewed; project-specific Hermes/OpenRouter interfaces.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No inferred manual coding mastery, team-management experience or generalized autonomous reliability.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, high for owner direction and repeated use; no manual-coding claim.
+- **WHAT I CAN DO:** Start from a practical idea/problem, brainstorm with AI, define the desired result and constraints, turn it into actionable work, direct implementation agents, review progress, make human product/design choices and iterate until the system works for the intended use.
+- **EVIDENCE:** E002 confirms sole agent direction of six projects; E004 demonstrates concrete visual acceptance requirements; E005 demonstrates product brief and architecture simplification; E009 explicitly describes the repeated idea → structured prompt/tasks → build agent → review/integration/fix workflow.
+- **PROJECTS USING IT:** P001–P005, P009–P012, P017.
+- **TOOLS/TECHNOLOGIES:** ChatGPT/Codex-style agents, project AGENTS.md/SOUL-style instructions, Hermes/OpenClaw-style builders and project-specific tools.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Owner explicitly does **not** manually write code. Do not infer traditional software-engineering interview proficiency, large human-team management or generalized autonomous reliability.
 
 ## S002 — Systems thinking / workflow decomposition
 
@@ -31,32 +32,32 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 ## S003 — Workflow automation / tool integration
 
 - **SKILL:** Workflow automation / tool integration.
-- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, moderate to high for AI-assisted prototypes and working components.
-- **WHAT I CAN DO:** Combine existing tools into repeatable media, listing, research and operational workflows.
-- **EVIDENCE:** Listing routes/quotas; media CLI; market collection/paper journal; extension voice integration; sheet planner.
-- **PROJECTS USING IT:** P001–P005, P009–P011.
-- **TOOLS/TECHNOLOGIES:** Python, Node.js, APIs/CLIs, FFmpeg, browser extension APIs, Google Sheets; exact tools in project entries.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No blanket production reliability or unverified platform experience. n8n exposure is website-reported in P012, with no inspected workflow export. Some chains are untested end-to-end.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, moderate to high for AI-assisted workflows and working personal systems.
+- **WHAT I CAN DO:** Combine existing tools/services into repeatable listing, research, content, media and operational workflows; direct agents to run those workflows rather than performing every repetitive step manually.
+- **EVIDENCE:** Listing routes/quotas; media pipeline; Marketing-OS lead/content workflows; Dream-Work sheet planner; E009 confirms a working n8n Reddit→spreadsheet workflow and a local video→edit→metadata→Buffer publishing workflow.
+- **PROJECTS USING IT:** P001–P005, P009–P012, P017.
+- **TOOLS/TECHNOLOGIES:** n8n, Buffer, Google Sheets, APIs/CLIs, FFmpeg, browser tooling, Vercel/GitHub/Stripe/Clerk/Cloudflare integrations through AI-directed setups.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No blanket production reliability or expertise in every platform. Implementation is agent-assisted; exact n8n node/API structure and some end-to-end chains remain uninspected.
 
 ## S004 — Debugging, verification and iteration through AI
 
 - **SKILL:** Debugging, verification and iteration through AI.
 - **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, moderate; concrete direction and inspected checks.
-- **WHAT I CAN DO:** Define observable acceptance criteria, have agents inspect failures, request correction and preserve evidence for the next iteration.
-- **EVIDENCE:** E004 explicitly requires comparison and repeated review; E005 catches unnecessary script architecture; projects contain tests, QA receipts and operational fixes.
-- **PROJECTS USING IT:** P001–P005, P009–P011.
-- **TOOLS/TECHNOLOGIES:** Reference examples; media QA; logs/reports; Node tests; Vitest; scoped Playwright harnesses.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Do not claim independently diagnosed every code defect. Existing test records were inspected, not rerun in this profile audit. Human acceptance and live execution limits are project-specific.
+- **WHAT I CAN DO:** Define observable acceptance criteria, compare output against references, describe what is wrong in human terms, ask agents to inspect/repair it and retest until the outcome improves.
+- **EVIDENCE:** E004 explicitly requires comparison and repeated review; E005 catches unnecessary script architecture; E009 gives a concrete example where a poor video filter was corrected by supplying preferred old-video references and directing an agent to rebuild/test the filter.
+- **PROJECTS USING IT:** P001–P005, P009–P012, P017.
+- **TOOLS/TECHNOLOGIES:** Reference examples, prompts/specifications, media QA, logs/reports, agent-run tests.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** He does not debug by manually reading/writing source code. Do not claim independent code-level diagnosis. Human acceptance and live execution limits are project-specific.
 
 ## S005 — Product thinking / practical MVP ownership
 
 - **SKILL:** Product thinking / practical MVP ownership.
 - **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, moderate to high for problem definition and artifacts.
-- **WHAT I CAN DO:** Define an audience problem, choose a bounded first version, build product flows with agents, and simplify mechanisms to match actual use.
-- **EVIDENCE:** DoneListing photo-to-listing flow; template/store artifacts; E005 reviewable opportunity workflow and owner preference for sheet formulas.
-- **PROJECTS USING IT:** P001, P006–P008, P010–P011.
-- **TOOLS/TECHNOLOGIES:** Deployed web interface; product briefs; templates; e-commerce and operational workflows.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Demand, retention, revenue, pricing success and paid customer outcomes are not established for every project.
+- **WHAT I CAN DO:** Define an audience problem, choose a bounded first version, get to an MVP quickly with agents, then continue through the slower polish/integration phase and simplify mechanisms to match actual use.
+- **EVIDENCE:** DoneListing photo-to-listing flow and deployed subscription product; E005 reviewable opportunity workflow and owner preference for simpler sheet formulas; E009 explicitly describes learning that the first ~80% can arrive quickly while the final product/polish takes several times longer, and that distribution/marketing is a separate problem from building.
+- **PROJECTS USING IT:** P001, P006–P008, P010–P011, P017.
+- **TOOLS/TECHNOLOGIES:** Deployed web interfaces, product briefs, templates, e-commerce and operational workflows.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Demand, retention, revenue, pricing success and paid customer outcomes are not established for these self-directed products.
 
 ## S006 — Creative direction / visual acceptance judgment
 
@@ -71,12 +72,12 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 ## S007 — Manual video editing / filming / thumbnails
 
 - **SKILL:** Manual video editing / filming / thumbnails.
-- **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE; SELF-REPORTED / DOCUMENT-REPORTED.
-- **WHAT I CAN DO:** Owner reports filming/editing/thumbnail capability and approximately 100 manually edited videos.
-- **EVIDENCE:** E001 self-report (~100 videos); E008 CV reports 50+ creation/editing plus photography. P003 supports related direction and automation, not the manual editing count.
-- **PROJECTS USING IT:** P003; historical manual videos not yet mapped.
-- **TOOLS/TECHNOLOGIES:** Manual editing software, cameras and thumbnail tools UNKNOWN.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Need representative original videos, editing role, dates and tools. The ~100 count is approximate self-report; do not present as audited or paid work.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN personal experience, OWNER-CONFIRMED; volume is not independently audited.
+- **WHAT I CAN DO:** Personally film, manually edit, caption and upload short- and long-form video. Owner confirms 100+ self-produced edited/uploaded videos, mostly talking-head/personal content, plus approximately 10–15 DoneListing marketing videos that he personally filmed, edited, manually captioned and uploaded.
+- **EVIDENCE:** E009 owner confirmation; E008 CV reports 50+ creation/editing; public historical content artifacts support the broader activity.
+- **PROJECTS USING IT:** P008, P017; P003 is the automation counterpart.
+- **TOOLS/TECHNOLOGIES:** Exact manual editor/camera stack still needs confirmation.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No paid client video work yet; representative original examples, exact tools and dates should be linked when useful. Do not present the 100+ count as externally audited.
 
 ## S008 — Graphic layout / digital product presentation
 
@@ -122,11 +123,11 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 
 - **SKILL:** Web product / API / database implementation through agents.
 - **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE, moderate artifact support.
-- **WHAT I CAN DO:** Direct implementation of user flows, structured generation, state, quota handling and integrations; inspect whether the result meets the objective.
-- **EVIDENCE:** DoneListing routes/database/validation/testing records; Trading-OS store/adapters; deployment UI.
-- **PROJECTS USING IT:** P001, P009, P011.
-- **TOOLS/TECHNOLOGIES:** Next.js, React, TypeScript, Clerk, Stripe, Neon/PostgreSQL, OpenRouter; Node.js/SQLite.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No inferred ability to independently interview as an expert in each technology; security audit, live billing results and production scaling not established.
+- **WHAT I CAN DO:** Direct agents to implement user flows, structured generation, state, quotas and integrations; configure/attach external services; inspect whether the result meets the product objective.
+- **EVIDENCE:** DoneListing routes/database/validation/testing records; Trading-OS store/adapters; Dream-Work planner; E009 confirms hands-on setup/connection of services such as GitHub, Vercel, Stripe, Clerk and Cloudflare/R2 in agent-built projects.
+- **PROJECTS USING IT:** P001, P009, P011, P013.
+- **TOOLS/TECHNOLOGIES:** Project stacks include Next.js/React/TypeScript, Clerk, Stripe, databases, OpenRouter, Node/SQLite and deployment services; these are stack exposure through agent-directed builds.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Owner explicitly does not manually code and should not be represented as independently proficient in these languages/frameworks. Security audit, production scaling and external-user billing outcomes are not established.
 
 ## S013 — Customer support / explaining products
 
@@ -152,11 +153,11 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 
 - **SKILL:** Independent technical learning / unfamiliar-task adaptation.
 - **CONFIDENCE / EVIDENCE LEVEL:** PROVEN for cross-domain AI-assisted adaptation; speed unmeasured.
-- **WHAT I CAN DO:** Learn enough of a new workflow to define tasks, use existing tools, assess output and progress toward an implementation with AI help.
-- **EVIDENCE:** E001 self-report plus reviewed listing/media/research/browser artifacts and owner-direction confirmation E002.
-- **PROJECTS USING IT:** P001–P005, P009–P011. P006–P008 are supporting historical artifacts pending attribution confirmation.
-- **TOOLS/TECHNOLOGIES:** Documentation, existing software, AI agents, project-specific tools.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No guarantee of any particular learning speed or ability to do every unfamiliar task unaided.
+- **WHAT I CAN DO:** Learn enough of an unfamiliar workflow to define the outcome, find/choose tools with AI, connect services, direct implementation and assess whether the output works. Lack of manual coding knowledge has not prevented shipping working software because implementation is delegated to agents.
+- **EVIDENCE:** E001/E002 plus reviewed listing/media/research/browser artifacts; E009 explicitly describes using AI as an open-ended thinking partner when he does not know the best route and then choosing/steering the implementation.
+- **PROJECTS USING IT:** P001–P005, P009–P013, P017. P006–P008 are supporting historical artifacts.
+- **TOOLS/TECHNOLOGIES:** Documentation, SaaS platforms, existing software, AI agents and project-specific integrations.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** “Can learn/build many things with agents” is not a guarantee of solving every problem, meeting every deadline or operating unaided. Traditional coding remains a genuine gap.
 
 ## S016 — Adjacent opportunities, without prior-experience claims
 
@@ -169,12 +170,32 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Must name the missing skill and learning requirement. No invented experience in requested platforms, regulated workflows or enterprise deployments.
 
 
-## S017 — Paid advertising basics / Meta Ads
+## S017 — Paid advertising basics
 
-- **SKILL:** Set up and run small paid-advertising experiments.
-- **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE of basics; DOCUMENT-REPORTED / SELF-REPORTED. No performance expertise established.
-- **WHAT I CAN DO:** E008 reports having run Meta Ads and knowing paid-advertising basics; website describes a small trial.
-- **EVIDENCE:** E008 Lithuanian CV; P012 website narrative. No campaign dashboard inspected.
-- **PROJECTS USING IT:** P012; other campaigns UNKNOWN.
-- **TOOLS/TECHNOLOGIES:** Meta Ads; exact account setup, objectives and tracking implementation UNKNOWN.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Profitable acquisition, attribution quality, meaningful campaign budget management and conversion/ROAS results unproven. Do not use the CV's “advanced” rating as externally assessed expertise.
+- **SKILL:** Set up and run small paid-social advertising experiments.
+- **CONFIDENCE / EVIDENCE LEVEL:** WORKING KNOWLEDGE of basics; OWNER-CONFIRMED / DOCUMENT-REPORTED. No performance expertise established.
+- **WHAT I CAN DO:** Personally set basic campaign parameters such as budget, country/targeting and creative, and launch small tests using his own product content.
+- **EVIDENCE:** E009 confirms personally setting up small DoneListing ad tests; E008 reports Meta Ads basics; website/Marketing-OS history documents additional small experiments.
+- **PROJECTS USING IT:** P004, P008, P012.
+- **TOOLS/TECHNOLOGIES:** Paid-social ad interfaces; exact platform-by-platform depth and tracking stack vary.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Profitable acquisition, attribution quality, substantial budget management, conversion-rate optimization and ROAS performance remain unproven.
+
+## S018 — SaaS/service integration and operational setup
+
+- **SKILL:** Connect and configure services around an AI-built product.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, OWNER-CONFIRMED within self-directed projects.
+- **WHAT I CAN DO:** Create/connect accounts, wire common SaaS services into an agent-built product, configure secrets/tokens, set up deployment/storage services and verify the resulting workflow from the user side.
+- **EVIDENCE:** E009 explicitly describes hands-on setup of GitHub/Vercel, Stripe, Clerk, Cloudflare/R2, API tokens/secrets and related project accounts; P001/P004/P013 contain corresponding implementation artifacts.
+- **PROJECTS USING IT:** P001, P004, P013, P017.
+- **TOOLS/TECHNOLOGIES:** GitHub, Vercel, Stripe, Clerk, Cloudflare/R2, Buffer and project-specific APIs.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** This is operational/integration ownership through existing products and AI-built code, not backend programming, security engineering or enterprise infrastructure administration.
+
+## S019 — n8n workflow automation
+
+- **SKILL:** Build practical n8n workflows for personal automation/research.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN personal use, OWNER-CONFIRMED; implementation artifact not yet inspected.
+- **WHAT I CAN DO:** Build a button-triggered workflow that reads a selected subreddit, searches for relevant product mentions and writes structured results into a spreadsheet.
+- **EVIDENCE:** E009 owner confirmation of the working workflow; P012 contains the earlier public narrative.
+- **PROJECTS USING IT:** P012.
+- **TOOLS/TECHNOLOGIES:** n8n, Reddit source/data access, spreadsheet output.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Exact nodes/API method, production reliability, authentication pattern and client deployment are not inspected. Do not infer broad n8n consulting experience from one working personal workflow.

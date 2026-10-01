@@ -6,17 +6,19 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 
 The owner supplied two CV PDFs on 2026-10-01: E003 (English seasonal-resort CV) and E008 (Lithuanian general CV). Both were extracted and visually inspected. Employment organizations and date ranges agree. Statements are DOCUMENT-REPORTED, not independent employer or credential verification. Owner authorized repository publication; this does not independently verify every source claim. Preserve differences explicitly rather than selecting the more flattering version.
 
+E009 is the owner's 2026-10-01 follow-up interview clarifying current work style, video experience, n8n use, availability/mobility and specific employment duties. E009 is OWNER-CONFIRMED and can resolve personal facts the owner is authoritative about, while credentials/employer records remain source-reported unless independently verified.
+
 ## Employment
 
 ### C001 — Data Centre Installation Technician
-- Organization: Black Cloud. The CV describes a Microsoft data-centre project; this does not establish direct Microsoft employment.
-- Dates: March 2025–June 2025, as reported consistently in E003 and E008.
-- Responsibilities: installed servers in racks; routed and connected fibre/data cabling; completed cable termination work; followed site safety procedures and carried out safety checks. E008 gives gas-leak checks as an example; exact authority/training UNKNOWN.
-- Additional claim: certified MEWP operator. Issuer, certificate date, category and current validity UNKNOWN; do not claim an independently verified/current credential.
-- Transferable relevance: following specifications, physical technical installation, procedural quality, safety awareness and working within a team/site environment. Do not infer network administration, software operations or electrical qualification.
+- Organization: Black Cloud. The work was on a Microsoft data-centre project; this does not establish direct Microsoft employment.
+- Location/duration: Sweden, approximately three months. CV dates are March 2025–June 2025; E009 confirms the work was in Sweden and roughly three months.
+- Responsibilities: pulled/routed large volumes of data cabling, installed servers into racks, connected cables to designated rack/port positions, and performed cable termination/connector work. Existing CV evidence also records site safety procedures/checks.
+- Access/equipment: owner reports having a site MEWP ID/authorization used while pulling cables. The exact credential name, issuer, category and current validity remain UNKNOWN; do not present it as a currently verified external certification.
+- Transferable relevance: following specifications, physical technical installation, repetitive high-accuracy connection work, procedural quality, safety awareness and team/site operations. Do not infer network administration, software operations or electrical qualification.
 - Title variants: E003 uses “Data Centre Installation Technician”; E008 uses “Inžinierius” (engineer). Prefer the duties-based installation title when qualification/seniority matters; do not infer an engineering degree.
-- Employment type, location, project scale and quantified results: UNKNOWN.
-- Provenance: supplied CVs agree; repository publication authorized; source claims retain their provenance.
+- Employment type, exact project scale and quantified results: UNKNOWN.
+- Provenance: supplied CVs plus owner clarification E009; employer/credential verification remains external.
 
 ### C002 — Tyre Service Technician
 - Organization: Klettur.
@@ -26,21 +28,24 @@ The owner supplied two CV PDFs on 2026-10-01: E003 (English seasonal-resort CV) 
 - Employment type, location, certification and quantified results: UNKNOWN.
 - Provenance: supplied CVs agree; repository publication authorized; source claims retain their provenance.
 
-### C003 — Customer Service / Sales Advisor
+### C003 — Customer Service / Sales / Contracts
 - Organization: UAB Ignitis (E008); Ignitis (E003).
 - Dates: May 2022–August 2022, as reported consistently in E003 and E008.
-- Responsibilities: helped new/existing customers choose electricity plans; handled contract-related questions; guided customers through self-service tools.
-- Transferable relevance: explaining unfamiliar products, clarifying customer needs, navigating service workflows and supporting users.
+- Title: owner says the official title translated roughly as “manager,” but the practical work was customer-facing sales/contracts. Use a duties-based title rather than implying people management.
+- Responsibilities: spoke with customers, helped them choose electricity plans, signed/processed new electricity contracts, handled contract-related questions and guided customers through service workflows/self-service.
+- Transferable relevance: customer communication, explaining products, clarifying needs, handling contracts and completing a defined sales/service process.
 - Sales targets, performance metrics, contract type and exact systems used: UNKNOWN.
-- Provenance: supplied CVs agree; repository publication authorized; source claims retain their provenance.
+- Provenance: supplied CVs plus owner clarification E009.
 
 ## Independent product work
 
-### C004 — Solo founder / AI-directed product projects
+### C004 — Solo founder / AI-directed product and automation projects
 - Owner explicitly confirms originating the ideas and personally directing all agent work for DoneListing, Hermes, Video Editor Agent, Marketing OS, Trading-OS and Jev Neo (E002, 2026-10-01).
-- See portfolio P001–P005, P009–P010 for each artifact and outcome boundary.
-- Employment status, incorporated companies, start/end dates, compensation and commercial traction: UNKNOWN. “Solo founder” is the owner's stated working role, not evidence of a registered company or funded startup.
-- Do not present these as employers, paying clients or salaried roles.
+- E009 clarifies the operating model: he does not manually write code. He defines goals/constraints, brainstorms and chooses directions with AI, turns ideas into actionable work, directs implementation agents, connects services/accounts, configures credentials/secrets, reviews UX/visual output, tests behaviour and prompts agents to repair/improve the result.
+- DoneListing reached a deployed subscription-SaaS state with authentication and Stripe integration; owner confirms no external users yet and testing has been his own.
+- See portfolio P001–P005, P009–P012 and P017 for artifact/outcome boundaries.
+- Employment status, incorporated companies, start/end dates and commercial traction remain project-specific. “Solo founder” is the owner's stated working role, not evidence of a funded startup.
+- Owner confirms no completed paid client/freelance project delivery yet. Do not present self-directed projects as employers or clients.
 
 ## Military service
 - Completed Lithuanian military service: both CVs report completion. E003 specifies nine months and “voluntary”; E008 says “privalomoji karo tarnyba” (compulsory service). Nine-month duration is documented only in E003; service category remains unresolved. Use neutral “completed military service” until clarified.
@@ -57,9 +62,10 @@ The owner supplied two CV PDFs on 2026-10-01: E003 (English seasonal-resort CV) 
 - Canva: graphic design, logos and thumbnails; self-assessed “skilled.” No professional client/brand results implied.
 - Midjourney: AI image generation and prompting.
 - Shopify, Etsy, Gumroad: e-commerce platform administration; website builders. Shopify project/example not yet identified.
-- n8n: process-automation basics; aligns with P012 website narrative, but workflow export not inspected.
-- Meta Ads: paid-advertising basics and ad running; campaign results not independently verified.
-- Video creation/editing: E008 reports 50+ videos; current owner brief reports approximately 100 and website says 100+. CV dates/scopes unknown; retain approximate current self-report, not an audited total.
+- n8n: owner confirms building a working Reddit product-discovery workflow that, from a button-triggered run, reads a selected subreddit, identifies relevant product mentions and writes results into a spreadsheet. Exact nodes/API method and exported workflow remain uninspected.
+- Paid advertising: owner confirms personally setting up small DoneListing paid-social tests, including budget and targeting/country choices. Platform-specific performance expertise and profitable acquisition remain unproven.
+- Video creation/editing: owner confirms personally filming/editing/uploading 100+ videos across short- and long-form formats, mostly his own talking-head/personal content. He also personally filmed, edited, manually captioned and uploaded approximately 10–15 DoneListing marketing videos.
+- Automated content workflow: owner confirms a working local agent-run pipeline that can take raw video through transcription, captions, filter/audio improvement and silence cutting, plus a related publishing workflow that generates platform copy and schedules through Buffer. Around 20 videos have been processed through the editing workflow so far; it remains under iteration.
 - Photography: reported; related resale artifacts in P016.
 - CV skill ratings are self-assessment, not certifications or evidence of advanced expertise. Map narrower capabilities to SKILLS.md.
 
@@ -69,8 +75,9 @@ The owner supplied two CV PDFs on 2026-10-01: E003 (English seasonal-resort CV) 
 - Lithuanian/EU citizenship: E003. Full Category B driving licence: both CVs. E008 says three years in the summary and four years in its licence field; E003 says four. Do not carry over a tenure or infer issuance date.
 - E008 lists Ukmergė and age 24. Document dates unknown; current residence/age not assumed, and age is unnecessary for opportunity matching.
 - E008 gives €2,000 net salary preference and immediate start. Treat as historical preference, not a current minimum or a freelance rate.
-- E003 gives immediate availability for the full 2026/27 winter season, European relocation and openness to roles with visa sponsorship. Current general availability, work location and travel constraints require confirmation.
-- Short-term work exposure in Germany, Denmark, the Netherlands and Norway: E003; associated employers/roles/dates UNKNOWN. Right to work outside the EU UNKNOWN.
+- Current availability (E009): available to start immediately and open to full-time, part-time, freelance/contract and short paid projects.
+- Work mode/mobility (E009): open to remote, hybrid or on-site work; prefers working around a live team when possible but does not require it. Willing to relocate globally, including Europe, Asia and other regions, subject to visa/work authorization. Open to the United States if sponsorship/authorization is available.
+- Short-term work exposure in Germany, Denmark, the Netherlands and Norway: E003; associated employers/roles/dates UNKNOWN. Right to work outside the EU remains subject to actual visa/work authorization.
 - Phone/email agree across both supplied CVs. Omitted here because repository rules store professional contacts in the operational sheet; retained in updated CV PDFs.
 
 ## Unresolved source differences
@@ -87,4 +94,4 @@ The owner supplied two CV PDFs on 2026-10-01: E003 (English seasonal-resort CV) 
 - Iceland tyre-changing narrative may correspond to C002, but that link is not confirmed.
 
 ## Material gaps
-Supply omitted work/contract history, military dates/category and credential validity if relevant; confirm current work preferences. The supplied CVs corroborate the recorded employers/dates but publication is authorized; unresolved details remain unconfirmed. Confirm commercial clients or paid creative work only with a concrete example. Pending facts do not prevent provisional opportunity discovery, but must not become confident application answers.
+Highest-value remaining gaps are omitted overseas work history (Germany/Denmark/Netherlands/Norway), military service category/dates, education completion details, Klettur location/details, exact MEWP credential status, representative public examples of manual video work, and any future paid client results. Current availability/mobility and the absence of paid client delivery are now owner-confirmed. Pending facts do not prevent opportunity discovery, but must not become confident application answers.
