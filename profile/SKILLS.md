@@ -16,8 +16,8 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **WHAT I CAN DO:** Start from a practical idea/problem, brainstorm with AI, define the desired result and constraints, turn it into actionable work, direct implementation agents, review progress, make human product/design choices and iterate until the system works for the intended use.
 - **EVIDENCE:** E002 confirms sole agent direction of six projects; E004 demonstrates concrete visual acceptance requirements; E005 demonstrates product brief and architecture simplification; E009 explicitly describes the repeated idea → structured prompt/tasks → build agent → review/integration/fix workflow.
 - **PROJECTS USING IT:** P001–P005, P009–P012, P017.
-- **TOOLS/TECHNOLOGIES:** ChatGPT/Codex-style agents, project AGENTS.md/SOUL-style instructions, Hermes/OpenClaw-style builders and project-specific tools.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Owner explicitly does **not** manually write code. Do not infer traditional software-engineering interview proficiency, large human-team management or generalized autonomous reliability.
+- **TOOLS/TECHNOLOGIES:** ChatGPT/Codex-style agents, project AGENTS.md/SOUL-style instructions, Hermes/OpenClaw-style builders, specialized multi-agent teams and project-specific tools.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Owner explicitly does **not** manually write code. Do not infer traditional software-engineering interview proficiency, large human-team management or generalized autonomous reliability. AI-agent team orchestration is not the same as managing a team of human employees.
 
 ## S002 — Systems thinking / workflow decomposition
 
@@ -185,10 +185,10 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **SKILL:** Connect and configure services around an AI-built product.
 - **CONFIDENCE / EVIDENCE LEVEL:** PROVEN, OWNER-CONFIRMED within self-directed projects.
 - **WHAT I CAN DO:** Create/connect accounts, wire common SaaS services into an agent-built product, configure secrets/tokens, set up deployment/storage services and verify the resulting workflow from the user side.
-- **EVIDENCE:** E009 explicitly describes hands-on setup of GitHub/Vercel, Stripe, Clerk, Cloudflare/R2, API tokens/secrets and related project accounts; P001/P004/P013 contain corresponding implementation artifacts.
-- **PROJECTS USING IT:** P001, P004, P013, P017.
-- **TOOLS/TECHNOLOGIES:** GitHub, Vercel, Stripe, Clerk, Cloudflare/R2, Buffer and project-specific APIs.
-- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** This is operational/integration ownership through existing products and AI-built code, not backend programming, security engineering or enterprise infrastructure administration.
+- **EVIDENCE:** E009 explicitly describes hands-on setup of GitHub/Vercel, Stripe, Clerk, Cloudflare/R2, API tokens/secrets and related project accounts; E011 adds MCP-style tool setup and Telegram/Discord agent interfaces. P001/P002/P004/P013 contain corresponding implementation/configuration artifacts.
+- **PROJECTS USING IT:** P001, P002, P004, P013, P017.
+- **TOOLS/TECHNOLOGIES:** GitHub, Vercel, Stripe, Clerk, Cloudflare/R2, Buffer, model-routing services, MCP-style integrations, Telegram/Discord and project-specific APIs.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** This is operational/integration ownership through existing products and AI-built code, not backend programming, formal security engineering or enterprise infrastructure administration.
 
 ## S019 — n8n workflow automation
 
@@ -220,3 +220,14 @@ Status: EVIDENCE-REVIEWED KNOWLEDGE BASE. Repository update authorized by owner 
 - **PROJECTS USING IT:** P001, P003–P005, P010–P011, P013, P017.
 - **TOOLS/TECHNOLOGIES:** Logs/tests, browser/manual UX review, reference examples, long-context/source material and AI agents.
 - **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** No formal QA certification, automated-testing authorship or professional usability-research program. Technical diagnosis is agent-assisted rather than manual code debugging.
+
+
+## S022 — Multi-agent team and agent-interface setup
+
+- **SKILL:** Configure practical multi-agent systems with specialized roles and multiple ways to interact with them.
+- **CONFIDENCE / EVIDENCE LEVEL:** PROVEN personal setup, OWNER-CONFIRMED; exact architecture varies by project.
+- **WHAT I CAN DO:** Set up AI-agent teams where different agents have distinct jobs, connect supporting tools/integrations, and make the system usable through terminal or messaging interfaces.
+- **EVIDENCE:** E011 confirms multiple Hermes-style teams, including one system of roughly ten specialized agents; MCP-style tool integrations; and Telegram/Discord connections. P002 already contains a reviewed lead-plus-specialist architecture.
+- **PROJECTS USING IT:** P002, P004 and related personal agent deployments.
+- **TOOLS/TECHNOLOGIES:** Hermes/OpenClaw-style agents, role/SOUL/AGENTS instructions, MCP-style integrations, Telegram, Discord, terminal/hosted environments and supporting SaaS/model services.
+- **LIMITATIONS / THINGS I HAVE NOT PROVEN YET:** Do not infer distributed-systems engineering, professional DevOps/security credentials or human people-management from AI-agent orchestration. Exact current integration inventory remains partly unspecified.
